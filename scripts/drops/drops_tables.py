@@ -73,6 +73,7 @@ SHARED_TABLE_SECTIONS = [
     ("combatHerb", "Combat herb drop table", "combat herb drop table"),
     ("seed", "General seed drop table", "general seed drop table"),
     ("rareSeed", "Rare seed drop table", "rare seed drop table"),
+    ("uncommonSeed", "Uncommon seed drop table", "uncommon seed drop table"),
     # Referenced from the gem table; monsters never roll it directly.
     ("talisman", "Talisman drop table", "talisman drop table"),
     (
@@ -110,6 +111,7 @@ NESTED_TABLE_REFS = {
     "seed drop table": "seed",
     "general seed drop table": "seed",
     "rare seed drop table": "rareSeed",
+    "uncommon seed drop table": "uncommonSeed",
     "talisman": "talisman",
     "talisman drop table": "talisman",
     "god wars dungeon-variant gem drop table": "gwdGem",
@@ -620,7 +622,7 @@ def build_table_spec(
     # Seed drops are listed individually and as a shared table access on some
     # pages; the access wins so the seeds are not counted twice.
     has_seed_access = any(
-        access.table_key in ("seed", "rareSeed") for access in table.subtable_accesses
+        access.table_key in ("seed", "rareSeed", "uncommonSeed") for access in table.subtable_accesses
     )
 
     # Keep adjacency and run size from source rows, before unresolved items or

@@ -17,6 +17,7 @@
       "rareDrop",
       "rareSeed",
       "seed",
+      "uncommonSeed",
       "usefulHerb"
     ],
     "unresolved_item_count": 1
@@ -8147,7 +8148,7 @@
       "label": "Members' worlds drops",
       "table_name": "Ankou Members' worlds drops",
       "wiki_page": "Ankou",
-      "main_max_roll": 140,
+      "main_max_roll": 141,
       "entries": [
         {
           "item_id": 526,
@@ -8168,8 +8169,8 @@
             1
           ],
           "weight": 1,
-          "out_of": 140,
-          "rarity": 0.0071429,
+          "out_of": 141,
+          "rarity": 0.0070922,
           "section": "Weapons and armour"
         },
         {
@@ -8180,8 +8181,8 @@
             1
           ],
           "weight": 1,
-          "out_of": 140,
-          "rarity": 0.0071429,
+          "out_of": 141,
+          "rarity": 0.0070922,
           "section": "Weapons and armour",
           "notes": [
             "Black robes are not dropped in the Forgotten Cemetery."
@@ -8195,8 +8196,8 @@
             10
           ],
           "weight": 10,
-          "out_of": 140,
-          "rarity": 0.0714286,
+          "out_of": 141,
+          "rarity": 0.070922,
           "section": "Runes and ammunition"
         },
         {
@@ -8207,8 +8208,8 @@
             11
           ],
           "weight": 6,
-          "out_of": 140,
-          "rarity": 0.0428571,
+          "out_of": 141,
+          "rarity": 0.0425532,
           "section": "Runes and ammunition"
         },
         {
@@ -8219,8 +8220,8 @@
             14
           ],
           "weight": 4,
-          "out_of": 140,
-          "rarity": 0.0285714,
+          "out_of": 141,
+          "rarity": 0.0283688,
           "section": "Runes and ammunition"
         },
         {
@@ -8231,8 +8232,8 @@
             2
           ],
           "weight": 7,
-          "out_of": 140,
-          "rarity": 0.05,
+          "out_of": 141,
+          "rarity": 0.0496454,
           "section": "Runes and ammunition",
           "notes": [
             "Law runes drop at a rate of 3/100 in the Forgotten Cemetery, 4/100 in the Stronghold of Security, and 7/100 elsewhere."
@@ -8246,8 +8247,8 @@
             5
           ],
           "weight": 3,
-          "out_of": 140,
-          "rarity": 0.0214286,
+          "out_of": 141,
+          "rarity": 0.0212766,
           "section": "Runes and ammunition"
         },
         {
@@ -8258,8 +8259,8 @@
             15
           ],
           "weight": 5,
-          "out_of": 140,
-          "rarity": 0.0357143,
+          "out_of": 141,
+          "rarity": 0.035461,
           "section": "Materials",
           "noted": true
         },
@@ -8271,8 +8272,8 @@
             7
           ],
           "weight": 2,
-          "out_of": 140,
-          "rarity": 0.0142857,
+          "out_of": 141,
+          "rarity": 0.0141844,
           "section": "Materials",
           "noted": true
         },
@@ -8284,8 +8285,8 @@
             8
           ],
           "weight": 33,
-          "out_of": 140,
-          "rarity": 0.2357143,
+          "out_of": 141,
+          "rarity": 0.2340426,
           "section": "Coins",
           "notes": [
             "The standalone eight coins do not drop in the Forgotten Cemetery."
@@ -8299,8 +8300,8 @@
             204
           ],
           "weight": 10,
-          "out_of": 140,
-          "rarity": 0.0714286,
+          "out_of": 141,
+          "rarity": 0.070922,
           "section": "Coins"
         },
         {
@@ -8311,8 +8312,8 @@
             60
           ],
           "weight": 38,
-          "out_of": 140,
-          "rarity": 0.2714286,
+          "out_of": 141,
+          "rarity": 0.2695035,
           "section": "Other",
           "notes": [
             "Dark fishing bait is only dropped in the Forgotten Cemetery."
@@ -8321,7 +8322,7 @@
         {
           "nothing": true,
           "weight": 7,
-          "out_of": 140
+          "out_of": 141
         },
         {
           "item_id": 9008,
@@ -8331,8 +8332,8 @@
             1
           ],
           "weight": 3,
-          "out_of": 140,
-          "rarity": 0.0214286,
+          "out_of": 141,
+          "rarity": 0.0212766,
           "section": "Other",
           "notes": [
             "Left skull halves are only dropped in the Stronghold of Security."
@@ -8346,8 +8347,8 @@
             1
           ],
           "weight": 2,
-          "out_of": 140,
-          "rarity": 0.0142857,
+          "out_of": 141,
+          "rarity": 0.0141844,
           "section": "Other"
         },
         {
@@ -8358,8 +8359,8 @@
             1
           ],
           "weight": 2,
-          "out_of": 140,
-          "rarity": 0.0142857,
+          "out_of": 141,
+          "rarity": 0.0141844,
           "section": "Other"
         },
         {
@@ -8370,8 +8371,8 @@
             1
           ],
           "weight": 1,
-          "out_of": 140,
-          "rarity": 0.0071429,
+          "out_of": 141,
+          "rarity": 0.0070922,
           "section": "Other"
         },
         {
@@ -8387,6 +8388,13 @@
           "out_of": 100,
           "rarity": 0.02,
           "section": "Gem drop table"
+        },
+        {
+          "shared_table": "uncommonSeed",
+          "weight": 1,
+          "out_of": 100,
+          "rarity": 0.01,
+          "section": "Seeds"
         }
       ],
       "tertiary": [
@@ -8764,6 +8772,13 @@
           "out_of": 95,
           "rarity": 0.0210526,
           "section": "Gem drop table"
+        },
+        {
+          "shared_table": "uncommonSeed",
+          "weight": 1,
+          "out_of": 92,
+          "rarity": 0.0108696,
+          "section": "Seeds"
         },
         {
           "item_id": 995,
@@ -10026,6 +10041,13 @@
           "section": "Herbs"
         },
         {
+          "shared_table": "uncommonSeed",
+          "weight": 10,
+          "out_of": 127,
+          "rarity": 0.0787402,
+          "section": "Seeds"
+        },
+        {
           "item_id": 29788,
           "name": "Araxyte head",
           "quantity": [
@@ -10314,6 +10336,13 @@
           "out_of": 127,
           "rarity": 0.0787402,
           "section": "Herbs"
+        },
+        {
+          "shared_table": "uncommonSeed",
+          "weight": 10,
+          "out_of": 127,
+          "rarity": 0.0787402,
+          "section": "Seeds"
         },
         {
           "item_id": 29788,
@@ -12514,6 +12543,13 @@
           "out_of": 128,
           "rarity": 0.0390625,
           "section": "Gem drop table"
+        },
+        {
+          "shared_table": "uncommonSeed",
+          "weight": 19,
+          "out_of": 128,
+          "rarity": 0.1484375,
+          "section": "Seeds"
         }
       ],
       "tertiary": [
@@ -18419,6 +18455,13 @@
           "out_of": 128,
           "rarity": 0.0390625,
           "section": "Gem drop table"
+        },
+        {
+          "shared_table": "uncommonSeed",
+          "weight": 19,
+          "out_of": 128,
+          "rarity": 0.1484375,
+          "section": "Seeds"
         }
       ],
       "tertiary": [
@@ -42674,6 +42717,13 @@
           "out_of": 128,
           "rarity": 0.03125,
           "section": "Gem drop table"
+        },
+        {
+          "shared_table": "uncommonSeed",
+          "weight": 35,
+          "out_of": 128,
+          "rarity": 0.2734375,
+          "section": "Seeds"
         }
       ],
       "tertiary": [
@@ -43659,6 +43709,13 @@
           "out_of": 149,
           "rarity": 0.0402685,
           "section": "Herbs"
+        },
+        {
+          "shared_table": "uncommonSeed",
+          "weight": 80,
+          "out_of": 149,
+          "rarity": 0.5369128,
+          "section": "Seeds"
         },
         {
           "item_id": 1783,
@@ -51431,6 +51488,13 @@
           "nothing": true,
           "weight": 109,
           "out_of": 128
+        },
+        {
+          "shared_table": "uncommonSeed",
+          "weight": 19,
+          "out_of": 128,
+          "rarity": 0.1484375,
+          "section": "Seeds"
         }
       ],
       "tertiary": [
@@ -56928,7 +56992,7 @@
       "label": "Drops",
       "table_name": "Cyclops Drops",
       "wiki_page": "Cyclops",
-      "main_max_roll": 201,
+      "main_max_roll": 202,
       "entries": [
         {
           "item_id": 532,
@@ -56973,8 +57037,8 @@
             13
           ],
           "weight": 16,
-          "out_of": 201,
-          "rarity": 0.079602,
+          "out_of": 202,
+          "rarity": 0.0792079,
           "section": "Weapons and armour"
         },
         {
@@ -56985,8 +57049,8 @@
             1
           ],
           "weight": 2,
-          "out_of": 201,
-          "rarity": 0.0099502,
+          "out_of": 202,
+          "rarity": 0.009901,
           "section": "Weapons and armour"
         },
         {
@@ -56997,8 +57061,8 @@
             1
           ],
           "weight": 2,
-          "out_of": 201,
-          "rarity": 0.0099502,
+          "out_of": 202,
+          "rarity": 0.009901,
           "section": "Weapons and armour"
         },
         {
@@ -57009,8 +57073,8 @@
             1
           ],
           "weight": 2,
-          "out_of": 201,
-          "rarity": 0.0099502,
+          "out_of": 202,
+          "rarity": 0.009901,
           "section": "Weapons and armour"
         },
         {
@@ -57021,8 +57085,8 @@
             1
           ],
           "weight": 2,
-          "out_of": 201,
-          "rarity": 0.0099502,
+          "out_of": 202,
+          "rarity": 0.009901,
           "section": "Weapons and armour"
         },
         {
@@ -57033,8 +57097,8 @@
             1
           ],
           "weight": 2,
-          "out_of": 201,
-          "rarity": 0.0099502,
+          "out_of": 202,
+          "rarity": 0.009901,
           "section": "Weapons and armour"
         },
         {
@@ -57045,8 +57109,8 @@
             1
           ],
           "weight": 2,
-          "out_of": 201,
-          "rarity": 0.0099502,
+          "out_of": 202,
+          "rarity": 0.009901,
           "section": "Weapons and armour"
         },
         {
@@ -57057,8 +57121,8 @@
             1
           ],
           "weight": 2,
-          "out_of": 201,
-          "rarity": 0.0099502,
+          "out_of": 202,
+          "rarity": 0.009901,
           "section": "Weapons and armour"
         },
         {
@@ -57069,8 +57133,8 @@
             1
           ],
           "weight": 2,
-          "out_of": 201,
-          "rarity": 0.0099502,
+          "out_of": 202,
+          "rarity": 0.009901,
           "section": "Weapons and armour"
         },
         {
@@ -57081,8 +57145,8 @@
             1
           ],
           "weight": 2,
-          "out_of": 201,
-          "rarity": 0.0099502,
+          "out_of": 202,
+          "rarity": 0.009901,
           "section": "Weapons and armour"
         },
         {
@@ -57093,8 +57157,8 @@
             1
           ],
           "weight": 2,
-          "out_of": 201,
-          "rarity": 0.0099502,
+          "out_of": 202,
+          "rarity": 0.009901,
           "section": "Weapons and armour"
         },
         {
@@ -57105,8 +57169,8 @@
             1
           ],
           "weight": 1,
-          "out_of": 201,
-          "rarity": 0.0049751,
+          "out_of": 202,
+          "rarity": 0.0049505,
           "section": "Weapons and armour"
         },
         {
@@ -57117,8 +57181,8 @@
             1
           ],
           "weight": 1,
-          "out_of": 201,
-          "rarity": 0.0049751,
+          "out_of": 202,
+          "rarity": 0.0049505,
           "section": "Weapons and armour"
         },
         {
@@ -57129,8 +57193,8 @@
             1
           ],
           "weight": 1,
-          "out_of": 201,
-          "rarity": 0.0049751,
+          "out_of": 202,
+          "rarity": 0.0049505,
           "section": "Weapons and armour"
         },
         {
@@ -57141,8 +57205,8 @@
             1
           ],
           "weight": 1,
-          "out_of": 201,
-          "rarity": 0.0049751,
+          "out_of": 202,
+          "rarity": 0.0049505,
           "section": "Weapons and armour"
         },
         {
@@ -57153,8 +57217,8 @@
             1
           ],
           "weight": 1,
-          "out_of": 201,
-          "rarity": 0.0049751,
+          "out_of": 202,
+          "rarity": 0.0049505,
           "section": "Weapons and armour"
         },
         {
@@ -57165,8 +57229,8 @@
             1
           ],
           "weight": 1,
-          "out_of": 201,
-          "rarity": 0.0049751,
+          "out_of": 202,
+          "rarity": 0.0049505,
           "section": "Weapons and armour"
         },
         {
@@ -57177,8 +57241,8 @@
             1
           ],
           "weight": 1,
-          "out_of": 201,
-          "rarity": 0.0049751,
+          "out_of": 202,
+          "rarity": 0.0049505,
           "section": "Weapons and armour"
         },
         {
@@ -57189,8 +57253,8 @@
             1
           ],
           "weight": 1,
-          "out_of": 201,
-          "rarity": 0.0049751,
+          "out_of": 202,
+          "rarity": 0.0049505,
           "section": "Weapons and armour"
         },
         {
@@ -57201,8 +57265,8 @@
             1
           ],
           "weight": 2,
-          "out_of": 201,
-          "rarity": 0.0099502,
+          "out_of": 202,
+          "rarity": 0.009901,
           "section": "Defenders"
         },
         {
@@ -57213,8 +57277,8 @@
             1
           ],
           "weight": 2,
-          "out_of": 201,
-          "rarity": 0.0099502,
+          "out_of": 202,
+          "rarity": 0.009901,
           "section": "Defenders"
         },
         {
@@ -57225,8 +57289,8 @@
             1
           ],
           "weight": 2,
-          "out_of": 201,
-          "rarity": 0.0099502,
+          "out_of": 202,
+          "rarity": 0.009901,
           "section": "Defenders"
         },
         {
@@ -57237,8 +57301,8 @@
             1
           ],
           "weight": 2,
-          "out_of": 201,
-          "rarity": 0.0099502,
+          "out_of": 202,
+          "rarity": 0.009901,
           "section": "Defenders"
         },
         {
@@ -57249,8 +57313,8 @@
             1
           ],
           "weight": 2,
-          "out_of": 201,
-          "rarity": 0.0099502,
+          "out_of": 202,
+          "rarity": 0.009901,
           "section": "Defenders"
         },
         {
@@ -57261,8 +57325,8 @@
             1
           ],
           "weight": 2,
-          "out_of": 201,
-          "rarity": 0.0099502,
+          "out_of": 202,
+          "rarity": 0.009901,
           "section": "Defenders"
         },
         {
@@ -57273,8 +57337,8 @@
             1
           ],
           "weight": 2,
-          "out_of": 201,
-          "rarity": 0.0099502,
+          "out_of": 202,
+          "rarity": 0.009901,
           "section": "Defenders"
         },
         {
@@ -57285,8 +57349,8 @@
             102
           ],
           "weight": 31,
-          "out_of": 201,
-          "rarity": 0.1542289,
+          "out_of": 202,
+          "rarity": 0.1534653,
           "section": "Coins"
         },
         {
@@ -57297,8 +57361,8 @@
             204
           ],
           "weight": 10,
-          "out_of": 201,
-          "rarity": 0.0497512,
+          "out_of": 202,
+          "rarity": 0.049505,
           "section": "Coins"
         },
         {
@@ -57309,8 +57373,8 @@
             1
           ],
           "weight": 4,
-          "out_of": 201,
-          "rarity": 0.0199005,
+          "out_of": 202,
+          "rarity": 0.019802,
           "section": "Weapons and armour"
         },
         {
@@ -57321,8 +57385,8 @@
             12
           ],
           "weight": 6,
-          "out_of": 201,
-          "rarity": 0.0298507,
+          "out_of": 202,
+          "rarity": 0.029703,
           "section": "Weapons and armour"
         },
         {
@@ -57333,8 +57397,8 @@
             1
           ],
           "weight": 5,
-          "out_of": 201,
-          "rarity": 0.0248756,
+          "out_of": 202,
+          "rarity": 0.0247525,
           "section": "Weapons and armour"
         },
         {
@@ -57345,8 +57409,8 @@
             1
           ],
           "weight": 5,
-          "out_of": 201,
-          "rarity": 0.0248756,
+          "out_of": 202,
+          "rarity": 0.0247525,
           "section": "Weapons and armour"
         },
         {
@@ -57357,8 +57421,8 @@
             1
           ],
           "weight": 5,
-          "out_of": 201,
-          "rarity": 0.0248756,
+          "out_of": 202,
+          "rarity": 0.0247525,
           "section": "Weapons and armour"
         },
         {
@@ -57369,8 +57433,8 @@
             1
           ],
           "weight": 5,
-          "out_of": 201,
-          "rarity": 0.0248756,
+          "out_of": 202,
+          "rarity": 0.0247525,
           "section": "Weapons and armour"
         },
         {
@@ -57381,8 +57445,8 @@
             1
           ],
           "weight": 5,
-          "out_of": 201,
-          "rarity": 0.0248756,
+          "out_of": 202,
+          "rarity": 0.0247525,
           "section": "Weapons and armour"
         },
         {
@@ -57393,8 +57457,8 @@
             1
           ],
           "weight": 5,
-          "out_of": 201,
-          "rarity": 0.0248756,
+          "out_of": 202,
+          "rarity": 0.0247525,
           "section": "Weapons and armour"
         },
         {
@@ -57405,8 +57469,8 @@
             1
           ],
           "weight": 7,
-          "out_of": 201,
-          "rarity": 0.0348259,
+          "out_of": 202,
+          "rarity": 0.0346535,
           "section": "Weapons and armour"
         },
         {
@@ -57417,8 +57481,8 @@
             22
           ],
           "weight": 4,
-          "out_of": 201,
-          "rarity": 0.0199005,
+          "out_of": 202,
+          "rarity": 0.019802,
           "section": "Weapons and armour"
         },
         {
@@ -57429,8 +57493,8 @@
             1
           ],
           "weight": 4,
-          "out_of": 201,
-          "rarity": 0.0199005,
+          "out_of": 202,
+          "rarity": 0.019802,
           "section": "Weapons and armour"
         },
         {
@@ -57441,8 +57505,8 @@
             1
           ],
           "weight": 5,
-          "out_of": 201,
-          "rarity": 0.0248756,
+          "out_of": 202,
+          "rarity": 0.0247525,
           "section": "Weapons and armour"
         },
         {
@@ -57453,8 +57517,8 @@
             1
           ],
           "weight": 3,
-          "out_of": 201,
-          "rarity": 0.0149254,
+          "out_of": 202,
+          "rarity": 0.0148515,
           "section": "Weapons and armour"
         },
         {
@@ -57465,8 +57529,8 @@
             1
           ],
           "weight": 1,
-          "out_of": 201,
-          "rarity": 0.0049751,
+          "out_of": 202,
+          "rarity": 0.0049505,
           "section": "Weapons and armour"
         },
         {
@@ -57477,8 +57541,8 @@
             1
           ],
           "weight": 1,
-          "out_of": 201,
-          "rarity": 0.0049751,
+          "out_of": 202,
+          "rarity": 0.0049505,
           "section": "Weapons and armour"
         },
         {
@@ -57489,8 +57553,8 @@
             96
           ],
           "weight": 11,
-          "out_of": 201,
-          "rarity": 0.0547264,
+          "out_of": 202,
+          "rarity": 0.0544554,
           "section": "Coins"
         },
         {
@@ -57501,8 +57565,8 @@
             449
           ],
           "weight": 8,
-          "out_of": 201,
-          "rarity": 0.039801,
+          "out_of": 202,
+          "rarity": 0.039604,
           "section": "Coins"
         },
         {
@@ -57513,8 +57577,8 @@
             1
           ],
           "weight": 7,
-          "out_of": 201,
-          "rarity": 0.0348259,
+          "out_of": 202,
+          "rarity": 0.0346535,
           "section": "Other"
         },
         {
@@ -57544,6 +57608,13 @@
           "out_of": 100,
           "rarity": 0.02,
           "section": "Gem drop table"
+        },
+        {
+          "shared_table": "uncommonSeed",
+          "weight": 1,
+          "out_of": 100,
+          "rarity": 0.01,
+          "section": "Seeds"
         }
       ],
       "tertiary": [
@@ -58312,6 +58383,13 @@
           "out_of": 100,
           "rarity": 0.02,
           "section": "Gem drop table"
+        },
+        {
+          "shared_table": "uncommonSeed",
+          "weight": 1,
+          "out_of": 100,
+          "rarity": 0.01,
+          "section": "Seeds"
         }
       ],
       "tertiary": [
@@ -58641,6 +58719,13 @@
           "out_of": 100,
           "rarity": 0.02,
           "section": "Gem drop table"
+        },
+        {
+          "shared_table": "uncommonSeed",
+          "weight": 1,
+          "out_of": 100,
+          "rarity": 0.01,
+          "section": "Seeds"
         }
       ],
       "tertiary": [
@@ -63001,7 +63086,7 @@
       "label": "Level 20, 22 and 23 drops",
       "table_name": "Dark wizard Level 20, 22 and 23 drops",
       "wiki_page": "Dark wizard",
-      "main_max_roll": 130,
+      "main_max_roll": 128,
       "entries": [
         {
           "item_id": 526,
@@ -63022,8 +63107,8 @@
             1
           ],
           "weight": 4,
-          "out_of": 130,
-          "rarity": 0.0307692,
+          "out_of": 128,
+          "rarity": 0.03125,
           "section": "Weapons and armour"
         },
         {
@@ -63033,9 +63118,9 @@
             1,
             1
           ],
-          "weight": 6,
-          "out_of": 130,
-          "rarity": 0.0461538,
+          "weight": 4,
+          "out_of": 128,
+          "rarity": 0.03125,
           "section": "Weapons and armour",
           "notes": [
             "Drop rate is decreased to 4/128 in members worlds."
@@ -63049,8 +63134,8 @@
             1
           ],
           "weight": 3,
-          "out_of": 130,
-          "rarity": 0.0230769,
+          "out_of": 128,
+          "rarity": 0.0234375,
           "section": "Weapons and armour"
         },
         {
@@ -63061,8 +63146,8 @@
             36
           ],
           "weight": 4,
-          "out_of": 130,
-          "rarity": 0.0307692,
+          "out_of": 128,
+          "rarity": 0.03125,
           "section": "Elemental runes"
         },
         {
@@ -63073,8 +63158,8 @@
             10
           ],
           "weight": 3,
-          "out_of": 130,
-          "rarity": 0.0230769,
+          "out_of": 128,
+          "rarity": 0.0234375,
           "section": "Elemental runes"
         },
         {
@@ -63085,8 +63170,8 @@
             10
           ],
           "weight": 3,
-          "out_of": 130,
-          "rarity": 0.0230769,
+          "out_of": 128,
+          "rarity": 0.0234375,
           "section": "Elemental runes"
         },
         {
@@ -63097,8 +63182,8 @@
             10
           ],
           "weight": 3,
-          "out_of": 130,
-          "rarity": 0.0230769,
+          "out_of": 128,
+          "rarity": 0.0234375,
           "section": "Elemental runes"
         },
         {
@@ -63109,8 +63194,8 @@
             10
           ],
           "weight": 3,
-          "out_of": 130,
-          "rarity": 0.0230769,
+          "out_of": 128,
+          "rarity": 0.0234375,
           "section": "Elemental runes"
         },
         {
@@ -63121,8 +63206,8 @@
             18
           ],
           "weight": 2,
-          "out_of": 130,
-          "rarity": 0.0153846,
+          "out_of": 128,
+          "rarity": 0.015625,
           "section": "Elemental runes"
         },
         {
@@ -63133,8 +63218,8 @@
             18
           ],
           "weight": 2,
-          "out_of": 130,
-          "rarity": 0.0153846,
+          "out_of": 128,
+          "rarity": 0.015625,
           "section": "Elemental runes"
         },
         {
@@ -63145,8 +63230,8 @@
             18
           ],
           "weight": 2,
-          "out_of": 130,
-          "rarity": 0.0153846,
+          "out_of": 128,
+          "rarity": 0.015625,
           "section": "Elemental runes"
         },
         {
@@ -63157,8 +63242,8 @@
             18
           ],
           "weight": 2,
-          "out_of": 130,
-          "rarity": 0.0153846,
+          "out_of": 128,
+          "rarity": 0.015625,
           "section": "Elemental runes"
         },
         {
@@ -63169,8 +63254,8 @@
             4
           ],
           "weight": 7,
-          "out_of": 130,
-          "rarity": 0.0538462,
+          "out_of": 128,
+          "rarity": 0.0546875,
           "section": "Catalytic runes"
         },
         {
@@ -63181,8 +63266,8 @@
             4
           ],
           "weight": 6,
-          "out_of": 130,
-          "rarity": 0.0461538,
+          "out_of": 128,
+          "rarity": 0.046875,
           "section": "Catalytic runes"
         },
         {
@@ -63193,8 +63278,8 @@
             10
           ],
           "weight": 3,
-          "out_of": 130,
-          "rarity": 0.0230769,
+          "out_of": 128,
+          "rarity": 0.0234375,
           "section": "Catalytic runes"
         },
         {
@@ -63205,8 +63290,8 @@
             10
           ],
           "weight": 3,
-          "out_of": 130,
-          "rarity": 0.0230769,
+          "out_of": 128,
+          "rarity": 0.0234375,
           "section": "Catalytic runes"
         },
         {
@@ -63217,8 +63302,8 @@
             18
           ],
           "weight": 2,
-          "out_of": 130,
-          "rarity": 0.0153846,
+          "out_of": 128,
+          "rarity": 0.015625,
           "section": "Catalytic runes"
         },
         {
@@ -63229,8 +63314,8 @@
             18
           ],
           "weight": 2,
-          "out_of": 130,
-          "rarity": 0.0153846,
+          "out_of": 128,
+          "rarity": 0.015625,
           "section": "Catalytic runes"
         },
         {
@@ -63241,8 +63326,8 @@
             2
           ],
           "weight": 2,
-          "out_of": 130,
-          "rarity": 0.0153846,
+          "out_of": 128,
+          "rarity": 0.015625,
           "section": "Catalytic runes"
         },
         {
@@ -63253,8 +63338,8 @@
             2
           ],
           "weight": 1,
-          "out_of": 130,
-          "rarity": 0.0076923,
+          "out_of": 128,
+          "rarity": 0.0078125,
           "section": "Catalytic runes"
         },
         {
@@ -63265,8 +63350,8 @@
             3
           ],
           "weight": 1,
-          "out_of": 130,
-          "rarity": 0.0076923,
+          "out_of": 128,
+          "rarity": 0.0078125,
           "section": "Catalytic runes"
         },
         {
@@ -63277,8 +63362,8 @@
             1
           ],
           "weight": 17,
-          "out_of": 130,
-          "rarity": 0.1307692,
+          "out_of": 128,
+          "rarity": 0.1328125,
           "section": "Coins"
         },
         {
@@ -63289,8 +63374,8 @@
             2
           ],
           "weight": 16,
-          "out_of": 130,
-          "rarity": 0.1230769,
+          "out_of": 128,
+          "rarity": 0.125,
           "section": "Coins"
         },
         {
@@ -63301,8 +63386,8 @@
             4
           ],
           "weight": 9,
-          "out_of": 130,
-          "rarity": 0.0692308,
+          "out_of": 128,
+          "rarity": 0.0703125,
           "section": "Coins"
         },
         {
@@ -63313,8 +63398,8 @@
             29
           ],
           "weight": 3,
-          "out_of": 130,
-          "rarity": 0.0230769,
+          "out_of": 128,
+          "rarity": 0.0234375,
           "section": "Coins"
         },
         {
@@ -63325,14 +63410,14 @@
             30
           ],
           "weight": 1,
-          "out_of": 130,
-          "rarity": 0.0076923,
+          "out_of": 128,
+          "rarity": 0.0078125,
           "section": "Coins"
         },
         {
           "nothing": true,
           "weight": 16,
-          "out_of": 130
+          "out_of": 128
         },
         {
           "item_id": 1444,
@@ -63342,8 +63427,8 @@
             1
           ],
           "weight": 2,
-          "out_of": 130,
-          "rarity": 0.0153846,
+          "out_of": 128,
+          "rarity": 0.015625,
           "section": "Other"
         },
         {
@@ -63354,8 +63439,8 @@
             1
           ],
           "weight": 2,
-          "out_of": 130,
-          "rarity": 0.0153846,
+          "out_of": 128,
+          "rarity": 0.015625,
           "section": "Other"
         }
       ],
@@ -63398,7 +63483,7 @@
       "label": "Level 7 and 11 drops",
       "table_name": "Dark wizard Level 7 and 11 drops",
       "wiki_page": "Dark wizard",
-      "main_max_roll": 130,
+      "main_max_roll": 128,
       "entries": [
         {
           "item_id": 526,
@@ -63419,8 +63504,8 @@
             1
           ],
           "weight": 8,
-          "out_of": 130,
-          "rarity": 0.0615385,
+          "out_of": 128,
+          "rarity": 0.0625,
           "section": "Weapons and armour"
         },
         {
@@ -63430,9 +63515,9 @@
             1,
             1
           ],
-          "weight": 6,
-          "out_of": 130,
-          "rarity": 0.0461538,
+          "weight": 4,
+          "out_of": 128,
+          "rarity": 0.03125,
           "section": "Weapons and armour",
           "notes": [
             "Drop rate is decreased to 4/128 in members worlds."
@@ -63446,8 +63531,8 @@
             1
           ],
           "weight": 3,
-          "out_of": 130,
-          "rarity": 0.0230769,
+          "out_of": 128,
+          "rarity": 0.0234375,
           "section": "Weapons and armour"
         },
         {
@@ -63458,8 +63543,8 @@
             36
           ],
           "weight": 4,
-          "out_of": 130,
-          "rarity": 0.0307692,
+          "out_of": 128,
+          "rarity": 0.03125,
           "section": "Elemental runes"
         },
         {
@@ -63470,8 +63555,8 @@
             10
           ],
           "weight": 3,
-          "out_of": 130,
-          "rarity": 0.0230769,
+          "out_of": 128,
+          "rarity": 0.0234375,
           "section": "Elemental runes"
         },
         {
@@ -63482,8 +63567,8 @@
             10
           ],
           "weight": 3,
-          "out_of": 130,
-          "rarity": 0.0230769,
+          "out_of": 128,
+          "rarity": 0.0234375,
           "section": "Elemental runes"
         },
         {
@@ -63494,8 +63579,8 @@
             10
           ],
           "weight": 3,
-          "out_of": 130,
-          "rarity": 0.0230769,
+          "out_of": 128,
+          "rarity": 0.0234375,
           "section": "Elemental runes"
         },
         {
@@ -63506,8 +63591,8 @@
             10
           ],
           "weight": 3,
-          "out_of": 130,
-          "rarity": 0.0230769,
+          "out_of": 128,
+          "rarity": 0.0234375,
           "section": "Elemental runes"
         },
         {
@@ -63518,8 +63603,8 @@
             18
           ],
           "weight": 2,
-          "out_of": 130,
-          "rarity": 0.0153846,
+          "out_of": 128,
+          "rarity": 0.015625,
           "section": "Elemental runes"
         },
         {
@@ -63530,8 +63615,8 @@
             18
           ],
           "weight": 2,
-          "out_of": 130,
-          "rarity": 0.0153846,
+          "out_of": 128,
+          "rarity": 0.015625,
           "section": "Elemental runes"
         },
         {
@@ -63542,8 +63627,8 @@
             18
           ],
           "weight": 2,
-          "out_of": 130,
-          "rarity": 0.0153846,
+          "out_of": 128,
+          "rarity": 0.015625,
           "section": "Elemental runes"
         },
         {
@@ -63554,8 +63639,8 @@
             18
           ],
           "weight": 2,
-          "out_of": 130,
-          "rarity": 0.0153846,
+          "out_of": 128,
+          "rarity": 0.015625,
           "section": "Elemental runes"
         },
         {
@@ -63566,8 +63651,8 @@
             4
           ],
           "weight": 7,
-          "out_of": 130,
-          "rarity": 0.0538462,
+          "out_of": 128,
+          "rarity": 0.0546875,
           "section": "Catalytic runes"
         },
         {
@@ -63578,8 +63663,8 @@
             5
           ],
           "weight": 6,
-          "out_of": 130,
-          "rarity": 0.0461538,
+          "out_of": 128,
+          "rarity": 0.046875,
           "section": "Catalytic runes"
         },
         {
@@ -63590,8 +63675,8 @@
             10
           ],
           "weight": 3,
-          "out_of": 130,
-          "rarity": 0.0230769,
+          "out_of": 128,
+          "rarity": 0.0234375,
           "section": "Catalytic runes"
         },
         {
@@ -63602,8 +63687,8 @@
             10
           ],
           "weight": 3,
-          "out_of": 130,
-          "rarity": 0.0230769,
+          "out_of": 128,
+          "rarity": 0.0234375,
           "section": "Catalytic runes"
         },
         {
@@ -63614,8 +63699,8 @@
             18
           ],
           "weight": 2,
-          "out_of": 130,
-          "rarity": 0.0153846,
+          "out_of": 128,
+          "rarity": 0.015625,
           "section": "Catalytic runes"
         },
         {
@@ -63626,8 +63711,8 @@
             18
           ],
           "weight": 2,
-          "out_of": 130,
-          "rarity": 0.0153846,
+          "out_of": 128,
+          "rarity": 0.015625,
           "section": "Catalytic runes"
         },
         {
@@ -63638,8 +63723,8 @@
             2
           ],
           "weight": 2,
-          "out_of": 130,
-          "rarity": 0.0153846,
+          "out_of": 128,
+          "rarity": 0.015625,
           "section": "Catalytic runes"
         },
         {
@@ -63650,8 +63735,8 @@
             2
           ],
           "weight": 1,
-          "out_of": 130,
-          "rarity": 0.0076923,
+          "out_of": 128,
+          "rarity": 0.0078125,
           "section": "Catalytic runes"
         },
         {
@@ -63662,8 +63747,8 @@
             3
           ],
           "weight": 1,
-          "out_of": 130,
-          "rarity": 0.0076923,
+          "out_of": 128,
+          "rarity": 0.0078125,
           "section": "Catalytic runes"
         },
         {
@@ -63674,8 +63759,8 @@
             1
           ],
           "weight": 17,
-          "out_of": 130,
-          "rarity": 0.1307692,
+          "out_of": 128,
+          "rarity": 0.1328125,
           "section": "Coins"
         },
         {
@@ -63686,8 +63771,8 @@
             2
           ],
           "weight": 16,
-          "out_of": 130,
-          "rarity": 0.1230769,
+          "out_of": 128,
+          "rarity": 0.125,
           "section": "Coins"
         },
         {
@@ -63698,8 +63783,8 @@
             4
           ],
           "weight": 7,
-          "out_of": 130,
-          "rarity": 0.0538462,
+          "out_of": 128,
+          "rarity": 0.0546875,
           "section": "Coins"
         },
         {
@@ -63710,8 +63795,8 @@
             29
           ],
           "weight": 3,
-          "out_of": 130,
-          "rarity": 0.0230769,
+          "out_of": 128,
+          "rarity": 0.0234375,
           "section": "Coins"
         },
         {
@@ -63722,14 +63807,14 @@
             30
           ],
           "weight": 1,
-          "out_of": 130,
-          "rarity": 0.0076923,
+          "out_of": 128,
+          "rarity": 0.0078125,
           "section": "Coins"
         },
         {
           "nothing": true,
           "weight": 16,
-          "out_of": 130
+          "out_of": 128
         },
         {
           "item_id": 1444,
@@ -63739,8 +63824,8 @@
             1
           ],
           "weight": 1,
-          "out_of": 130,
-          "rarity": 0.0076923,
+          "out_of": 128,
+          "rarity": 0.0078125,
           "section": "Other"
         },
         {
@@ -63751,8 +63836,8 @@
             1
           ],
           "weight": 1,
-          "out_of": 130,
-          "rarity": 0.0076923,
+          "out_of": 128,
+          "rarity": 0.0078125,
           "section": "Other"
         }
       ],
@@ -67195,6 +67280,13 @@
           "section": "Herbs"
         },
         {
+          "shared_table": "uncommonSeed",
+          "weight": 10,
+          "out_of": 127,
+          "rarity": 0.0787402,
+          "section": "Seeds"
+        },
+        {
           "item_id": 29806,
           "name": "Aranea boots",
           "quantity": [
@@ -70164,6 +70256,13 @@
           "section": "Herbs"
         },
         {
+          "shared_table": "uncommonSeed",
+          "weight": 80,
+          "out_of": 150,
+          "rarity": 0.5333333,
+          "section": "Seeds"
+        },
+        {
           "item_id": 1783,
           "name": "Bucket of sand",
           "quantity": [
@@ -70570,6 +70669,13 @@
           "out_of": 128,
           "rarity": 0.015625,
           "section": "Gem drop table"
+        },
+        {
+          "shared_table": "uncommonSeed",
+          "weight": 18,
+          "out_of": 128,
+          "rarity": 0.140625,
+          "section": "Seeds"
         }
       ],
       "tertiary": [
@@ -74681,6 +74787,13 @@
           "nothing": true,
           "weight": 109,
           "out_of": 128
+        },
+        {
+          "shared_table": "uncommonSeed",
+          "weight": 19,
+          "out_of": 128,
+          "rarity": 0.1484375,
+          "section": "Seeds"
         }
       ],
       "tertiary": [
@@ -76538,6 +76651,13 @@
           "out_of": 128,
           "rarity": 0.03125,
           "section": "Gem drop table"
+        },
+        {
+          "shared_table": "uncommonSeed",
+          "weight": 19,
+          "out_of": 128,
+          "rarity": 0.1484375,
+          "section": "Seeds"
         }
       ],
       "tertiary": [
@@ -85505,7 +85625,7 @@
       "label": "Drops",
       "table_name": "Giant Sea Snake Drops",
       "wiki_page": "Giant Sea Snake",
-      "main_max_roll": 128,
+      "main_max_roll": 129,
       "entries": [
         {
           "item_id": 532,
@@ -85526,8 +85646,8 @@
             15
           ],
           "weight": 2,
-          "out_of": 128,
-          "rarity": 0.015625,
+          "out_of": 129,
+          "rarity": 0.0155039,
           "section": "Runes and ammunition"
         },
         {
@@ -85538,8 +85658,8 @@
             1
           ],
           "weight": 2,
-          "out_of": 128,
-          "rarity": 0.015625,
+          "out_of": 129,
+          "rarity": 0.0155039,
           "section": "Runes and ammunition"
         },
         {
@@ -85550,8 +85670,8 @@
             4
           ],
           "weight": 2,
-          "out_of": 128,
-          "rarity": 0.015625,
+          "out_of": 129,
+          "rarity": 0.0155039,
           "section": "Runes and ammunition"
         },
         {
@@ -85562,8 +85682,8 @@
             44
           ],
           "weight": 41,
-          "out_of": 128,
-          "rarity": 0.3203125,
+          "out_of": 129,
+          "rarity": 0.3178295,
           "section": "Coins"
         },
         {
@@ -85574,8 +85694,8 @@
             32
           ],
           "weight": 11,
-          "out_of": 128,
-          "rarity": 0.0859375,
+          "out_of": 129,
+          "rarity": 0.0852713,
           "section": "Coins"
         },
         {
@@ -85586,8 +85706,8 @@
             24
           ],
           "weight": 9,
-          "out_of": 128,
-          "rarity": 0.0703125,
+          "out_of": 129,
+          "rarity": 0.0697674,
           "section": "Coins"
         },
         {
@@ -85598,8 +85718,8 @@
             23
           ],
           "weight": 7,
-          "out_of": 128,
-          "rarity": 0.0546875,
+          "out_of": 129,
+          "rarity": 0.0542636,
           "section": "Coins"
         },
         {
@@ -85610,8 +85730,8 @@
             2
           ],
           "weight": 10,
-          "out_of": 128,
-          "rarity": 0.078125,
+          "out_of": 129,
+          "rarity": 0.0775194,
           "section": "Other"
         },
         {
@@ -85622,8 +85742,8 @@
             50
           ],
           "weight": 4,
-          "out_of": 128,
-          "rarity": 0.03125,
+          "out_of": 129,
+          "rarity": 0.0310078,
           "section": "Other"
         },
         {
@@ -85634,8 +85754,8 @@
             3
           ],
           "weight": 4,
-          "out_of": 128,
-          "rarity": 0.03125,
+          "out_of": 129,
+          "rarity": 0.0310078,
           "section": "Other"
         },
         {
@@ -85646,8 +85766,8 @@
             1
           ],
           "weight": 3,
-          "out_of": 128,
-          "rarity": 0.0234375,
+          "out_of": 129,
+          "rarity": 0.0232558,
           "section": "Other"
         },
         {
@@ -85658,8 +85778,8 @@
             2
           ],
           "weight": 4,
-          "out_of": 128,
-          "rarity": 0.03125,
+          "out_of": 129,
+          "rarity": 0.0310078,
           "section": "Other"
         },
         {
@@ -85670,8 +85790,8 @@
             1
           ],
           "weight": 2,
-          "out_of": 128,
-          "rarity": 0.015625,
+          "out_of": 129,
+          "rarity": 0.0155039,
           "section": "Other"
         },
         {
@@ -85682,8 +85802,8 @@
             5
           ],
           "weight": 2,
-          "out_of": 128,
-          "rarity": 0.015625,
+          "out_of": 129,
+          "rarity": 0.0155039,
           "section": "Other"
         },
         {
@@ -85694,8 +85814,8 @@
             5
           ],
           "weight": 2,
-          "out_of": 128,
-          "rarity": 0.015625,
+          "out_of": 129,
+          "rarity": 0.0155039,
           "section": "Other"
         },
         {
@@ -85706,8 +85826,8 @@
             1
           ],
           "weight": 2,
-          "out_of": 128,
-          "rarity": 0.015625,
+          "out_of": 129,
+          "rarity": 0.0155039,
           "section": "Other"
         },
         {
@@ -85718,8 +85838,8 @@
             2
           ],
           "weight": 1,
-          "out_of": 128,
-          "rarity": 0.0078125,
+          "out_of": 129,
+          "rarity": 0.0077519,
           "section": "Other"
         },
         {
@@ -85730,8 +85850,8 @@
             1
           ],
           "weight": 1,
-          "out_of": 128,
-          "rarity": 0.0078125,
+          "out_of": 129,
+          "rarity": 0.0077519,
           "section": "Other"
         },
         {
@@ -85747,6 +85867,13 @@
           "out_of": 128,
           "rarity": 0.0078125,
           "section": "Gem drop table"
+        },
+        {
+          "shared_table": "uncommonSeed",
+          "weight": 14,
+          "out_of": 128,
+          "rarity": 0.109375,
+          "section": "Seeds"
         }
       ],
       "tertiary": [
@@ -89165,6 +89292,7 @@
       "label": "Drops",
       "table_name": "Gorad Drops",
       "wiki_page": "Gorad",
+      "main_max_roll": 128,
       "entries": [
         {
           "item_id": 532,
@@ -89176,6 +89304,13 @@
           "always": true,
           "rarity_raw": "Always",
           "section": "100%"
+        },
+        {
+          "shared_table": "uncommonSeed",
+          "weight": 19,
+          "out_of": 128,
+          "rarity": 0.1484375,
+          "section": "Seeds"
         }
       ],
       "tertiary": [
@@ -100808,7 +100943,7 @@
       "label": "Unarmed hobgoblin drops",
       "table_name": "Hobgoblin Unarmed hobgoblin drops",
       "wiki_page": "Hobgoblin",
-      "main_max_roll": 187,
+      "main_max_roll": 180,
       "entries": [
         {
           "item_id": 526,
@@ -100829,8 +100964,8 @@
             1
           ],
           "weight": 3,
-          "out_of": 187,
-          "rarity": 0.0160428,
+          "out_of": 180,
+          "rarity": 0.0166667,
           "section": "Weapons"
         },
         {
@@ -100841,8 +100976,8 @@
             1
           ],
           "weight": 3,
-          "out_of": 187,
-          "rarity": 0.0160428,
+          "out_of": 180,
+          "rarity": 0.0166667,
           "section": "Weapons"
         },
         {
@@ -100853,8 +100988,8 @@
             1
           ],
           "weight": 3,
-          "out_of": 187,
-          "rarity": 0.0160428,
+          "out_of": 180,
+          "rarity": 0.0166667,
           "section": "Weapons"
         },
         {
@@ -100865,8 +101000,8 @@
             1
           ],
           "weight": 2,
-          "out_of": 187,
-          "rarity": 0.0106952,
+          "out_of": 180,
+          "rarity": 0.0111111,
           "section": "Weapons"
         },
         {
@@ -100877,8 +101012,8 @@
             1
           ],
           "weight": 2,
-          "out_of": 187,
-          "rarity": 0.0106952,
+          "out_of": 180,
+          "rarity": 0.0111111,
           "section": "Weapons"
         },
         {
@@ -100889,8 +101024,8 @@
             1
           ],
           "weight": 1,
-          "out_of": 187,
-          "rarity": 0.0053476,
+          "out_of": 180,
+          "rarity": 0.0055556,
           "section": "Weapons"
         },
         {
@@ -100901,8 +101036,8 @@
             2
           ],
           "weight": 3,
-          "out_of": 187,
-          "rarity": 0.0160428,
+          "out_of": 180,
+          "rarity": 0.0166667,
           "section": "Runes"
         },
         {
@@ -100913,8 +101048,8 @@
             2
           ],
           "weight": 2,
-          "out_of": 187,
-          "rarity": 0.0106952,
+          "out_of": 180,
+          "rarity": 0.0111111,
           "section": "Runes"
         },
         {
@@ -100925,8 +101060,8 @@
             7
           ],
           "weight": 2,
-          "out_of": 187,
-          "rarity": 0.0106952,
+          "out_of": 180,
+          "rarity": 0.0111111,
           "section": "Runes"
         },
         {
@@ -100937,8 +101072,8 @@
             6
           ],
           "weight": 2,
-          "out_of": 187,
-          "rarity": 0.0106952,
+          "out_of": 180,
+          "rarity": 0.0111111,
           "section": "Runes"
         },
         {
@@ -100949,8 +101084,8 @@
             3
           ],
           "weight": 2,
-          "out_of": 187,
-          "rarity": 0.0106952,
+          "out_of": 180,
+          "rarity": 0.0111111,
           "section": "Runes"
         },
         {
@@ -100961,8 +101096,8 @@
             4
           ],
           "weight": 2,
-          "out_of": 187,
-          "rarity": 0.0106952,
+          "out_of": 180,
+          "rarity": 0.0111111,
           "section": "Runes"
         },
         {
@@ -100973,8 +101108,8 @@
             2
           ],
           "weight": 1,
-          "out_of": 187,
-          "rarity": 0.0053476,
+          "out_of": 180,
+          "rarity": 0.0055556,
           "section": "Runes"
         },
         {
@@ -100985,8 +101120,8 @@
             15
           ],
           "weight": 16,
-          "out_of": 187,
-          "rarity": 0.0855615,
+          "out_of": 180,
+          "rarity": 0.0888889,
           "section": "Coins"
         },
         {
@@ -100996,9 +101131,9 @@
             28,
             28
           ],
-          "weight": 16,
-          "out_of": 187,
-          "rarity": 0.0855615,
+          "weight": 12,
+          "out_of": 180,
+          "rarity": 0.0666667,
           "section": "Coins",
           "notes": [
             "Drop rate is decreased to 12/128 in members worlds."
@@ -101012,8 +101147,8 @@
             5
           ],
           "weight": 12,
-          "out_of": 187,
-          "rarity": 0.0641711,
+          "out_of": 180,
+          "rarity": 0.0666667,
           "section": "Coins"
         },
         {
@@ -101024,8 +101159,8 @@
             62
           ],
           "weight": 4,
-          "out_of": 187,
-          "rarity": 0.0213904,
+          "out_of": 180,
+          "rarity": 0.0222222,
           "section": "Coins"
         },
         {
@@ -101036,8 +101171,8 @@
             42
           ],
           "weight": 3,
-          "out_of": 187,
-          "rarity": 0.0160428,
+          "out_of": 180,
+          "rarity": 0.0166667,
           "section": "Coins"
         },
         {
@@ -101048,8 +101183,8 @@
             1
           ],
           "weight": 1,
-          "out_of": 187,
-          "rarity": 0.0053476,
+          "out_of": 180,
+          "rarity": 0.0055556,
           "section": "Coins"
         },
         {
@@ -101060,8 +101195,8 @@
             1
           ],
           "weight": 1,
-          "out_of": 187,
-          "rarity": 0.0053476,
+          "out_of": 180,
+          "rarity": 0.0055556,
           "section": "Other",
           "notes": [
             "Only dropped by Hobgoblins on Karamja, in place of the regular coin drops."
@@ -101075,8 +101210,8 @@
             5
           ],
           "weight": 12,
-          "out_of": 187,
-          "rarity": 0.0641711,
+          "out_of": 180,
+          "rarity": 0.0666667,
           "section": "Other"
         },
         {
@@ -101087,8 +101222,8 @@
             15
           ],
           "weight": 16,
-          "out_of": 187,
-          "rarity": 0.0855615,
+          "out_of": 180,
+          "rarity": 0.0888889,
           "section": "Other"
         },
         {
@@ -101099,8 +101234,8 @@
             28
           ],
           "weight": 16,
-          "out_of": 187,
-          "rarity": 0.0855615,
+          "out_of": 180,
+          "rarity": 0.0888889,
           "section": "Other"
         },
         {
@@ -101111,8 +101246,8 @@
             42
           ],
           "weight": 3,
-          "out_of": 187,
-          "rarity": 0.0160428,
+          "out_of": 180,
+          "rarity": 0.0166667,
           "section": "Other"
         },
         {
@@ -101123,8 +101258,8 @@
             62
           ],
           "weight": 4,
-          "out_of": 187,
-          "rarity": 0.0213904,
+          "out_of": 180,
+          "rarity": 0.0222222,
           "section": "Other"
         },
         {
@@ -101135,8 +101270,8 @@
             1
           ],
           "weight": 22,
-          "out_of": 187,
-          "rarity": 0.1176471,
+          "out_of": 180,
+          "rarity": 0.1222222,
           "section": "Other"
         },
         {
@@ -101146,9 +101281,9 @@
             1,
             1
           ],
-          "weight": 5,
-          "out_of": 187,
-          "rarity": 0.026738,
+          "weight": 2,
+          "out_of": 180,
+          "rarity": 0.0111111,
           "section": "Other",
           "notes": [
             "Drop rate is decreased to 2/128 in members worlds."
@@ -101157,7 +101292,7 @@
         {
           "nothing": true,
           "weight": 1,
-          "out_of": 187
+          "out_of": 180
         },
         {
           "shared_table": "herb",
@@ -101233,7 +101368,7 @@
       "label": "Armed hobgoblin drops",
       "table_name": "Hobgoblin Armed hobgoblin drops",
       "wiki_page": "Hobgoblin",
-      "main_max_roll": 132,
+      "main_max_roll": 129,
       "entries": [
         {
           "item_id": 526,
@@ -101254,8 +101389,8 @@
             1
           ],
           "weight": 3,
-          "out_of": 132,
-          "rarity": 0.0227273,
+          "out_of": 129,
+          "rarity": 0.0232558,
           "section": "Weapons"
         },
         {
@@ -101266,8 +101401,8 @@
             1
           ],
           "weight": 3,
-          "out_of": 132,
-          "rarity": 0.0227273,
+          "out_of": 129,
+          "rarity": 0.0232558,
           "section": "Weapons"
         },
         {
@@ -101278,8 +101413,8 @@
             1
           ],
           "weight": 1,
-          "out_of": 132,
-          "rarity": 0.0075758,
+          "out_of": 129,
+          "rarity": 0.0077519,
           "section": "Weapons"
         },
         {
@@ -101290,8 +101425,8 @@
             2
           ],
           "weight": 3,
-          "out_of": 132,
-          "rarity": 0.0227273,
+          "out_of": 129,
+          "rarity": 0.0232558,
           "section": "Runes and ammunition"
         },
         {
@@ -101302,8 +101437,8 @@
             2
           ],
           "weight": 2,
-          "out_of": 132,
-          "rarity": 0.0151515,
+          "out_of": 129,
+          "rarity": 0.0155039,
           "section": "Runes and ammunition"
         },
         {
@@ -101314,8 +101449,8 @@
             7
           ],
           "weight": 2,
-          "out_of": 132,
-          "rarity": 0.0151515,
+          "out_of": 129,
+          "rarity": 0.0155039,
           "section": "Runes and ammunition"
         },
         {
@@ -101326,8 +101461,8 @@
             6
           ],
           "weight": 2,
-          "out_of": 132,
-          "rarity": 0.0151515,
+          "out_of": 129,
+          "rarity": 0.0155039,
           "section": "Runes and ammunition"
         },
         {
@@ -101338,8 +101473,8 @@
             3
           ],
           "weight": 2,
-          "out_of": 132,
-          "rarity": 0.0151515,
+          "out_of": 129,
+          "rarity": 0.0155039,
           "section": "Runes and ammunition"
         },
         {
@@ -101350,8 +101485,8 @@
             4
           ],
           "weight": 2,
-          "out_of": 132,
-          "rarity": 0.0151515,
+          "out_of": 129,
+          "rarity": 0.0155039,
           "section": "Runes and ammunition"
         },
         {
@@ -101362,8 +101497,8 @@
             2
           ],
           "weight": 1,
-          "out_of": 132,
-          "rarity": 0.0075758,
+          "out_of": 129,
+          "rarity": 0.0077519,
           "section": "Runes and ammunition"
         },
         {
@@ -101374,8 +101509,8 @@
             5
           ],
           "weight": 1,
-          "out_of": 132,
-          "rarity": 0.0075758,
+          "out_of": 129,
+          "rarity": 0.0077519,
           "section": "Runes and ammunition"
         },
         {
@@ -101386,8 +101521,8 @@
             15
           ],
           "weight": 34,
-          "out_of": 132,
-          "rarity": 0.2575758,
+          "out_of": 129,
+          "rarity": 0.2635659,
           "section": "Coins"
         },
         {
@@ -101397,9 +101532,9 @@
             5,
             5
           ],
-          "weight": 24,
-          "out_of": 132,
-          "rarity": 0.1818182,
+          "weight": 12,
+          "out_of": 129,
+          "rarity": 0.0930233,
           "section": "Coins",
           "notes": [
             "Drop rate is decreased to 12/128 in members worlds."
@@ -101413,8 +101548,8 @@
             28
           ],
           "weight": 4,
-          "out_of": 132,
-          "rarity": 0.030303,
+          "out_of": 129,
+          "rarity": 0.0310078,
           "section": "Coins"
         },
         {
@@ -101425,8 +101560,8 @@
             62
           ],
           "weight": 4,
-          "out_of": 132,
-          "rarity": 0.030303,
+          "out_of": 129,
+          "rarity": 0.0310078,
           "section": "Coins"
         },
         {
@@ -101437,8 +101572,8 @@
             42
           ],
           "weight": 3,
-          "out_of": 132,
-          "rarity": 0.0227273,
+          "out_of": 129,
+          "rarity": 0.0232558,
           "section": "Coins"
         },
         {
@@ -101449,8 +101584,8 @@
             1
           ],
           "weight": 3,
-          "out_of": 132,
-          "rarity": 0.0227273,
+          "out_of": 129,
+          "rarity": 0.0232558,
           "section": "Coins",
           "notes": [
             "Only dropped in members worlds."
@@ -101464,8 +101599,8 @@
             1
           ],
           "weight": 1,
-          "out_of": 132,
-          "rarity": 0.0075758,
+          "out_of": 129,
+          "rarity": 0.0077519,
           "section": "Coins"
         },
         {
@@ -101476,8 +101611,8 @@
             1
           ],
           "weight": 21,
-          "out_of": 132,
-          "rarity": 0.1590909,
+          "out_of": 129,
+          "rarity": 0.1627907,
           "section": "Other"
         },
         {
@@ -101487,9 +101622,9 @@
             1,
             1
           ],
-          "weight": 5,
-          "out_of": 132,
-          "rarity": 0.0378788,
+          "weight": 2,
+          "out_of": 129,
+          "rarity": 0.0155039,
           "section": "Other",
           "notes": [
             "Drop rate is decreased to 2/128 in members worlds."
@@ -101498,7 +101633,7 @@
         {
           "nothing": true,
           "weight": 2,
-          "out_of": 132
+          "out_of": 129
         },
         {
           "shared_table": "herb",
@@ -101513,6 +101648,13 @@
           "out_of": 128,
           "rarity": 0.015625,
           "section": "Gem drop table"
+        },
+        {
+          "shared_table": "uncommonSeed",
+          "weight": 12,
+          "out_of": 128,
+          "rarity": 0.09375,
+          "section": "Seeds"
         }
       ],
       "tertiary": [
@@ -102477,9 +102619,9 @@
             1,
             1
           ],
-          "weight": 5,
+          "weight": 4,
           "out_of": 128,
-          "rarity": 0.0390625,
+          "rarity": 0.03125,
           "section": "Weapons and armour",
           "notes": [
             "Drop rate is decreased to 4/128 in members worlds."
@@ -102767,6 +102909,13 @@
           "out_of": 128,
           "rarity": 0.03125,
           "section": "Gem drop table"
+        },
+        {
+          "shared_table": "uncommonSeed",
+          "weight": 8,
+          "out_of": 128,
+          "rarity": 0.0625,
+          "section": "Seeds"
         }
       ],
       "tertiary": [
@@ -103447,6 +103596,13 @@
           "out_of": 128,
           "rarity": 0.0078125,
           "section": "Gem drop table"
+        },
+        {
+          "shared_table": "uncommonSeed",
+          "weight": 11,
+          "out_of": 128,
+          "rarity": 0.0859375,
+          "section": "Seeds"
         }
       ],
       "tertiary": [
@@ -103760,6 +103916,13 @@
           "out_of": 128,
           "rarity": 0.0078125,
           "section": "Gem drop table"
+        },
+        {
+          "shared_table": "uncommonSeed",
+          "weight": 11,
+          "out_of": 128,
+          "rarity": 0.0859375,
+          "section": "Seeds"
         }
       ],
       "tertiary": [
@@ -104028,6 +104191,13 @@
           "out_of": 128,
           "rarity": 0.0078125,
           "section": "Gem drop table"
+        },
+        {
+          "shared_table": "uncommonSeed",
+          "weight": 11,
+          "out_of": 128,
+          "rarity": 0.0859375,
+          "section": "Seeds"
         }
       ],
       "tertiary": [
@@ -104331,6 +104501,13 @@
           "out_of": 128,
           "rarity": 0.0390625,
           "section": "Gem drop table"
+        },
+        {
+          "shared_table": "uncommonSeed",
+          "weight": 19,
+          "out_of": 128,
+          "rarity": 0.1484375,
+          "section": "Seeds"
         }
       ],
       "tertiary": [
@@ -104586,6 +104763,13 @@
           "out_of": 128,
           "rarity": 0.0078125,
           "section": "Gem drop table"
+        },
+        {
+          "shared_table": "uncommonSeed",
+          "weight": 11,
+          "out_of": 128,
+          "rarity": 0.0859375,
+          "section": "Seeds"
         }
       ],
       "tertiary": [
@@ -104889,6 +105073,13 @@
           "out_of": 128,
           "rarity": 0.0390625,
           "section": "Gem drop table"
+        },
+        {
+          "shared_table": "uncommonSeed",
+          "weight": 19,
+          "out_of": 128,
+          "rarity": 0.1484375,
+          "section": "Seeds"
         }
       ],
       "tertiary": [
@@ -105028,9 +105219,9 @@
             2,
             2
           ],
-          "weight": 3,
+          "weight": 2,
           "out_of": 128,
-          "rarity": 0.0234375,
+          "rarity": 0.015625,
           "section": "Runes and ammunition",
           "notes": [
             "Adamant arrows drop rate decreases to 2/128 in members worlds."
@@ -105090,6 +105281,13 @@
           "out_of": 128,
           "rarity": 0.0234375,
           "section": "Gem drop table"
+        },
+        {
+          "shared_table": "uncommonSeed",
+          "weight": 18,
+          "out_of": 128,
+          "rarity": 0.140625,
+          "section": "Seeds"
         }
       ],
       "tertiary": [
@@ -110400,7 +110598,7 @@
       "label": "Drops",
       "table_name": "Jogre Drops",
       "wiki_page": "Jogre",
-      "main_max_roll": 129,
+      "main_max_roll": 134,
       "entries": [
         {
           "item_id": 3125,
@@ -110421,8 +110619,8 @@
             1
           ],
           "weight": 30,
-          "out_of": 129,
-          "rarity": 0.2325581,
+          "out_of": 134,
+          "rarity": 0.2238806,
           "section": "Weapons"
         },
         {
@@ -110433,8 +110631,8 @@
             1
           ],
           "weight": 4,
-          "out_of": 129,
-          "rarity": 0.0310078,
+          "out_of": 134,
+          "rarity": 0.0298507,
           "section": "Weapons"
         },
         {
@@ -110445,8 +110643,8 @@
             2
           ],
           "weight": 10,
-          "out_of": 129,
-          "rarity": 0.0775194,
+          "out_of": 134,
+          "rarity": 0.0746269,
           "section": "Runes and ammunition"
         },
         {
@@ -110457,8 +110655,8 @@
             10
           ],
           "weight": 2,
-          "out_of": 129,
-          "rarity": 0.0155039,
+          "out_of": 134,
+          "rarity": 0.0149254,
           "section": "Runes and ammunition"
         },
         {
@@ -110469,8 +110667,8 @@
             5
           ],
           "weight": 2,
-          "out_of": 129,
-          "rarity": 0.0155039,
+          "out_of": 134,
+          "rarity": 0.0149254,
           "section": "Runes and ammunition"
         },
         {
@@ -110481,8 +110679,8 @@
             5
           ],
           "weight": 2,
-          "out_of": 129,
-          "rarity": 0.0155039,
+          "out_of": 134,
+          "rarity": 0.0149254,
           "section": "Runes and ammunition"
         },
         {
@@ -110493,8 +110691,8 @@
             1
           ],
           "weight": 5,
-          "out_of": 129,
-          "rarity": 0.0387597,
+          "out_of": 134,
+          "rarity": 0.0373134,
           "section": "Herbs"
         },
         {
@@ -110505,8 +110703,8 @@
             1
           ],
           "weight": 5,
-          "out_of": 129,
-          "rarity": 0.0387597,
+          "out_of": 134,
+          "rarity": 0.0373134,
           "section": "Herbs"
         },
         {
@@ -110517,8 +110715,8 @@
             22
           ],
           "weight": 27,
-          "out_of": 129,
-          "rarity": 0.2093023,
+          "out_of": 134,
+          "rarity": 0.2014925,
           "section": "Other"
         },
         {
@@ -110529,8 +110727,8 @@
             2
           ],
           "weight": 8,
-          "out_of": 129,
-          "rarity": 0.0620155,
+          "out_of": 134,
+          "rarity": 0.0597015,
           "section": "Other"
         },
         {
@@ -110541,8 +110739,8 @@
             1
           ],
           "weight": 5,
-          "out_of": 129,
-          "rarity": 0.0387597,
+          "out_of": 134,
+          "rarity": 0.0373134,
           "section": "Other"
         },
         {
@@ -110553,8 +110751,8 @@
             1
           ],
           "weight": 3,
-          "out_of": 129,
-          "rarity": 0.0232558,
+          "out_of": 134,
+          "rarity": 0.0223881,
           "section": "Other",
           "notes": [
             "Players will receive one set of bones together with an extra drop of regular big bones."
@@ -110568,8 +110766,8 @@
             1
           ],
           "weight": 3,
-          "out_of": 129,
-          "rarity": 0.0232558,
+          "out_of": 134,
+          "rarity": 0.0223881,
           "section": "Other"
         },
         {
@@ -110580,8 +110778,8 @@
             3
           ],
           "weight": 2,
-          "out_of": 129,
-          "rarity": 0.0155039,
+          "out_of": 134,
+          "rarity": 0.0149254,
           "section": "Other",
           "notes": [
             "Players will receive three sets of big bones together with an extra drop of bones."
@@ -110595,14 +110793,14 @@
             1
           ],
           "weight": 2,
-          "out_of": 129,
-          "rarity": 0.0155039,
+          "out_of": 134,
+          "rarity": 0.0149254,
           "section": "Other"
         },
         {
           "nothing": true,
           "weight": 2,
-          "out_of": 129
+          "out_of": 134
         },
         {
           "shared_table": "herb",
@@ -110617,6 +110815,13 @@
           "out_of": 129,
           "rarity": 0.0077519,
           "section": "Gem drop table"
+        },
+        {
+          "shared_table": "uncommonSeed",
+          "weight": 15,
+          "out_of": 129,
+          "rarity": 0.1162791,
+          "section": "Seeds"
         }
       ],
       "tertiary": [
@@ -120876,6 +121081,13 @@
           "section": "Other"
         },
         {
+          "shared_table": "uncommonSeed",
+          "weight": 15,
+          "out_of": 67,
+          "rarity": 0.2238806,
+          "section": "Seeds"
+        },
+        {
           "item_id": 13392,
           "name": "Xeric's talisman (inert)",
           "quantity": [
@@ -120938,6 +121150,13 @@
           "section": "Other"
         },
         {
+          "shared_table": "uncommonSeed",
+          "weight": 15,
+          "out_of": 87,
+          "rarity": 0.1724138,
+          "section": "Seeds"
+        },
+        {
           "item_id": 13392,
           "name": "Xeric's talisman (inert)",
           "quantity": [
@@ -120998,6 +121217,13 @@
           "out_of": 78,
           "rarity": 0.1025641,
           "section": "Other"
+        },
+        {
+          "shared_table": "uncommonSeed",
+          "weight": 15,
+          "out_of": 78,
+          "rarity": 0.1923077,
+          "section": "Seeds"
         },
         {
           "item_id": 13392,
@@ -121650,6 +121876,13 @@
           "weight": 5,
           "out_of": 118,
           "rarity": 0.0423729,
+          "section": "Seeds"
+        },
+        {
+          "shared_table": "uncommonSeed",
+          "weight": 4,
+          "out_of": 118,
+          "rarity": 0.0338983,
           "section": "Seeds"
         },
         {
@@ -125799,7 +126032,7 @@
       "label": "Drops",
       "table_name": "Manta ray (monster) Drops",
       "wiki_page": "Manta ray (monster)",
-      "main_max_roll": 344,
+      "main_max_roll": 99,
       "entries": [
         {
           "item_id": 31959,
@@ -125815,52 +126048,42 @@
           "section": "Pre-roll"
         },
         {
-          "item_id": 21488,
-          "name": "Mahogany seed",
+          "item_id": 389,
+          "name": "Raw manta ray",
           "quantity": [
             1,
             1
           ],
-          "weight": 1,
-          "out_of": 344,
-          "rarity": 0.002907,
-          "section": "Seeds"
+          "weight": 15,
+          "out_of": 99,
+          "rarity": 0.1515152,
+          "section": "Other"
         },
         {
-          "item_id": 5314,
-          "name": "Maple seed",
+          "item_id": 1783,
+          "name": "Bucket of sand",
           "quantity": [
-            1,
-            1
+            10,
+            15
           ],
-          "weight": 1,
-          "out_of": 344,
-          "rarity": 0.002907,
-          "section": "Seeds"
+          "weight": 5,
+          "out_of": 99,
+          "rarity": 0.0505051,
+          "section": "Other",
+          "noted": true
         },
         {
-          "item_id": 21486,
-          "name": "Teak seed",
+          "item_id": 401,
+          "name": "Seaweed",
           "quantity": [
-            1,
-            1
+            10,
+            15
           ],
-          "weight": 1,
-          "out_of": 344,
-          "rarity": 0.002907,
-          "section": "Seeds"
-        },
-        {
-          "item_id": 5315,
-          "name": "Yew seed",
-          "quantity": [
-            1,
-            1
-          ],
-          "weight": 1,
-          "out_of": 344,
-          "rarity": 0.002907,
-          "section": "Seeds"
+          "weight": 5,
+          "out_of": 99,
+          "rarity": 0.0505051,
+          "section": "Other",
+          "noted": true
         },
         {
           "shared_table": "combatHerb",
@@ -125868,6 +126091,13 @@
           "out_of": 99,
           "rarity": 0.040404,
           "section": "Herbs"
+        },
+        {
+          "shared_table": "uncommonSeed",
+          "weight": 30,
+          "out_of": 99,
+          "rarity": 0.3030303,
+          "section": "Seeds"
         },
         {
           "item_id": 31513,
@@ -125935,331 +126165,6 @@
           "section": "Sailing seeds and frags"
         },
         {
-          "item_id": 5296,
-          "name": "Toadflax seed",
-          "quantity": [
-            1,
-            1
-          ],
-          "separate_roll": true,
-          "weight": 1,
-          "out_of": 83,
-          "rarity": 0.0120482,
-          "section": "Seeds"
-        },
-        {
-          "item_id": 209,
-          "name": "Grimy irit leaf",
-          "quantity": [
-            2,
-            3
-          ],
-          "separate_roll": true,
-          "weight": 1,
-          "out_of": 83,
-          "rarity": 0.0120482,
-          "section": "Unnoted herbs"
-        },
-        {
-          "item_id": 5297,
-          "name": "Irit seed",
-          "quantity": [
-            1,
-            1
-          ],
-          "separate_roll": true,
-          "weight": 1,
-          "out_of": 122,
-          "rarity": 0.0081967,
-          "section": "Seeds"
-        },
-        {
-          "item_id": 5281,
-          "name": "Belladonna seed",
-          "quantity": [
-            1,
-            1
-          ],
-          "separate_roll": true,
-          "weight": 1,
-          "out_of": 126,
-          "rarity": 0.0079365,
-          "section": "Seeds"
-        },
-        {
-          "item_id": 5298,
-          "name": "Avantoe seed",
-          "quantity": [
-            1,
-            1
-          ],
-          "separate_roll": true,
-          "weight": 1,
-          "out_of": 175,
-          "rarity": 0.0057143,
-          "section": "Seeds"
-        },
-        {
-          "item_id": 5106,
-          "name": "Poison ivy seed",
-          "quantity": [
-            1,
-            1
-          ],
-          "separate_roll": true,
-          "weight": 1,
-          "out_of": 178,
-          "rarity": 0.005618,
-          "section": "Seeds"
-        },
-        {
-          "item_id": 5280,
-          "name": "Cactus seed",
-          "quantity": [
-            1,
-            1
-          ],
-          "separate_roll": true,
-          "weight": 1,
-          "out_of": 187,
-          "rarity": 0.0053476,
-          "section": "Seeds"
-        },
-        {
-          "item_id": 22873,
-          "name": "Potato cactus seed",
-          "quantity": [
-            1,
-            1
-          ],
-          "separate_roll": true,
-          "weight": 1,
-          "out_of": 257,
-          "rarity": 0.0038911,
-          "section": "Seeds"
-        },
-        {
-          "item_id": 5299,
-          "name": "Kwuarm seed",
-          "quantity": [
-            1,
-            1
-          ],
-          "separate_roll": true,
-          "weight": 1,
-          "out_of": 261,
-          "rarity": 0.0038314,
-          "section": "Seeds"
-        },
-        {
-          "item_id": 5300,
-          "name": "Snapdragon seed",
-          "quantity": [
-            1,
-            1
-          ],
-          "separate_roll": true,
-          "weight": 1,
-          "out_of": 141,
-          "rarity": 0.0070922,
-          "section": "Seeds"
-        },
-        {
-          "item_id": 5301,
-          "name": "Cadantine seed",
-          "quantity": [
-            1,
-            1
-          ],
-          "separate_roll": true,
-          "weight": 1,
-          "out_of": 562,
-          "rarity": 0.0017794,
-          "section": "Seeds"
-        },
-        {
-          "item_id": 5302,
-          "name": "Lantadyme seed",
-          "quantity": [
-            1,
-            1
-          ],
-          "separate_roll": true,
-          "weight": 1,
-          "out_of": 782,
-          "rarity": 0.0012788,
-          "section": "Seeds"
-        },
-        {
-          "item_id": 22879,
-          "name": "Snape grass seed",
-          "quantity": [
-            3,
-            3
-          ],
-          "separate_roll": true,
-          "weight": 1,
-          "out_of": 899,
-          "rarity": 0.0011123,
-          "section": "Seeds"
-        },
-        {
-          "item_id": 5303,
-          "name": "Dwarf weed seed",
-          "quantity": [
-            1,
-            1
-          ],
-          "separate_roll": true,
-          "weight": 1,
-          "out_of": 1285,
-          "rarity": 0.0007782,
-          "section": "Seeds"
-        },
-        {
-          "item_id": 5304,
-          "name": "Torstol seed",
-          "quantity": [
-            1,
-            1
-          ],
-          "separate_roll": true,
-          "weight": 1,
-          "out_of": 247,
-          "rarity": 0.0040486,
-          "section": "Seeds"
-        },
-        {
-          "item_id": 5295,
-          "name": "Ranarr seed",
-          "quantity": [
-            1,
-            1
-          ],
-          "separate_roll": true,
-          "weight": 1,
-          "out_of": 206,
-          "rarity": 0.0048544,
-          "section": "Seeds"
-        },
-        {
-          "item_id": 5321,
-          "name": "Watermelon seed",
-          "quantity": [
-            15,
-            15
-          ],
-          "separate_roll": true,
-          "weight": 1,
-          "out_of": 295,
-          "rarity": 0.0033898,
-          "section": "Seeds"
-        },
-        {
-          "item_id": 5313,
-          "name": "Willow seed",
-          "quantity": [
-            1,
-            1
-          ],
-          "separate_roll": true,
-          "weight": 1,
-          "out_of": 309,
-          "rarity": 0.0032362,
-          "section": "Seeds"
-        },
-        {
-          "item_id": 5288,
-          "name": "Papaya tree seed",
-          "quantity": [
-            1,
-            1
-          ],
-          "separate_roll": true,
-          "weight": 1,
-          "out_of": 442,
-          "rarity": 0.0022624,
-          "section": "Seeds"
-        },
-        {
-          "item_id": 5316,
-          "name": "Magic seed",
-          "quantity": [
-            1,
-            1
-          ],
-          "separate_roll": true,
-          "weight": 1,
-          "out_of": 563,
-          "rarity": 0.0017762,
-          "section": "Seeds"
-        },
-        {
-          "item_id": 5289,
-          "name": "Palm tree seed",
-          "quantity": [
-            1,
-            1
-          ],
-          "separate_roll": true,
-          "weight": 1,
-          "out_of": 619,
-          "rarity": 0.0016155,
-          "section": "Seeds"
-        },
-        {
-          "item_id": 5317,
-          "name": "Spirit seed",
-          "quantity": [
-            1,
-            1
-          ],
-          "separate_roll": true,
-          "weight": 1,
-          "out_of": 773,
-          "rarity": 0.0012937,
-          "section": "Seeds"
-        },
-        {
-          "item_id": 22877,
-          "name": "Dragonfruit tree seed",
-          "quantity": [
-            1,
-            1
-          ],
-          "separate_roll": true,
-          "weight": 1,
-          "out_of": 1031,
-          "rarity": 0.0009699,
-          "section": "Seeds"
-        },
-        {
-          "item_id": 22869,
-          "name": "Celastrus seed",
-          "quantity": [
-            1,
-            1
-          ],
-          "separate_roll": true,
-          "weight": 1,
-          "out_of": 1547,
-          "rarity": 0.0006464,
-          "section": "Seeds"
-        },
-        {
-          "item_id": 22871,
-          "name": "Redwood tree seed",
-          "quantity": [
-            1,
-            1
-          ],
-          "separate_roll": true,
-          "weight": 1,
-          "out_of": 1547,
-          "rarity": 0.0006464,
-          "section": "Seeds"
-        },
-        {
           "item_id": 199,
           "name": "Grimy guam leaf",
           "quantity": [
@@ -126322,6 +126227,19 @@
           "weight": 1,
           "out_of": 46,
           "rarity": 0.0217391,
+          "section": "Unnoted herbs"
+        },
+        {
+          "item_id": 209,
+          "name": "Grimy irit leaf",
+          "quantity": [
+            2,
+            3
+          ],
+          "separate_roll": true,
+          "weight": 1,
+          "out_of": 83,
+          "rarity": 0.0120482,
           "section": "Unnoted herbs"
         },
         {
@@ -126414,47 +126332,6 @@
           "out_of": 264,
           "rarity": 0.0037879,
           "section": "Unnoted herbs"
-        },
-        {
-          "item_id": 389,
-          "name": "Raw manta ray",
-          "quantity": [
-            1,
-            1
-          ],
-          "separate_roll": true,
-          "weight": 15,
-          "out_of": 99,
-          "rarity": 0.1515152,
-          "section": "Other"
-        },
-        {
-          "item_id": 1783,
-          "name": "Bucket of sand",
-          "quantity": [
-            10,
-            15
-          ],
-          "separate_roll": true,
-          "weight": 5,
-          "out_of": 99,
-          "rarity": 0.0505051,
-          "section": "Other",
-          "noted": true
-        },
-        {
-          "item_id": 401,
-          "name": "Seaweed",
-          "quantity": [
-            10,
-            15
-          ],
-          "separate_roll": true,
-          "weight": 5,
-          "out_of": 99,
-          "rarity": 0.0505051,
-          "section": "Other",
-          "noted": true
         }
       ],
       "tertiary": [
@@ -128988,6 +128865,13 @@
           "out_of": 128,
           "rarity": 0.0078125,
           "section": "Other"
+        },
+        {
+          "shared_table": "uncommonSeed",
+          "weight": 13,
+          "out_of": 128,
+          "rarity": 0.1015625,
+          "section": "Seeds"
         }
       ],
       "tertiary": [
@@ -129244,6 +129128,13 @@
           "out_of": 128,
           "rarity": 0.0078125,
           "section": "Other"
+        },
+        {
+          "shared_table": "uncommonSeed",
+          "weight": 20,
+          "out_of": 128,
+          "rarity": 0.15625,
+          "section": "Seeds"
         }
       ],
       "tertiary": [
@@ -130720,9 +130611,9 @@
             2,
             2
           ],
-          "weight": 11,
+          "weight": 8,
           "out_of": 128,
-          "rarity": 0.0859375,
+          "rarity": 0.0625,
           "section": "Coins",
           "notes": [
             "Drop rate is decreased to 8/128 in members worlds."
@@ -130801,6 +130692,13 @@
           "out_of": 128,
           "rarity": 0.03125,
           "section": "Gem drop table"
+        },
+        {
+          "shared_table": "uncommonSeed",
+          "weight": 35,
+          "out_of": 128,
+          "rarity": 0.2734375,
+          "section": "Seeds"
         }
       ],
       "tertiary": [
@@ -131223,6 +131121,13 @@
           "out_of": 128,
           "rarity": 0.03125,
           "section": "Gem drop table"
+        },
+        {
+          "shared_table": "uncommonSeed",
+          "weight": 35,
+          "out_of": 128,
+          "rarity": 0.2734375,
+          "section": "Seeds"
         }
       ],
       "tertiary": [
@@ -131712,6 +131617,13 @@
           "out_of": 128,
           "rarity": 0.0390625,
           "section": "Gem drop table"
+        },
+        {
+          "shared_table": "uncommonSeed",
+          "weight": 19,
+          "out_of": 128,
+          "rarity": 0.1484375,
+          "section": "Seeds"
         }
       ],
       "tertiary": [
@@ -139703,6 +139615,13 @@
           "nothing": true,
           "weight": 109,
           "out_of": 128
+        },
+        {
+          "shared_table": "uncommonSeed",
+          "weight": 19,
+          "out_of": 128,
+          "rarity": 0.1484375,
+          "section": "Seeds"
         }
       ],
       "tertiary": [
@@ -139797,6 +139716,13 @@
           "nothing": true,
           "weight": 109,
           "out_of": 128
+        },
+        {
+          "shared_table": "uncommonSeed",
+          "weight": 19,
+          "out_of": 128,
+          "rarity": 0.1484375,
+          "section": "Seeds"
         }
       ],
       "tertiary": [
@@ -140111,6 +140037,13 @@
           "out_of": 116,
           "rarity": 0.0775862,
           "section": "Coins"
+        },
+        {
+          "shared_table": "uncommonSeed",
+          "weight": 5,
+          "out_of": 116,
+          "rarity": 0.0431034,
+          "section": "Seeds"
         }
       ],
       "tertiary": [
@@ -140485,6 +140418,13 @@
           "out_of": 116,
           "rarity": 0.0775862,
           "section": "Coins"
+        },
+        {
+          "shared_table": "uncommonSeed",
+          "weight": 5,
+          "out_of": 116,
+          "rarity": 0.0431034,
+          "section": "Seeds"
         }
       ],
       "tertiary": [
@@ -145744,6 +145684,13 @@
           "out_of": 108,
           "rarity": 0.0092593,
           "section": "Gem drop table"
+        },
+        {
+          "shared_table": "uncommonSeed",
+          "weight": 5,
+          "out_of": 108,
+          "rarity": 0.0462963,
+          "section": "Seeds"
         },
         {
           "item_id": 31511,
@@ -154202,7 +154149,7 @@
       "label": "Drops",
       "table_name": "Sea Snake Young Drops",
       "wiki_page": "Sea Snake Young",
-      "main_max_roll": 133,
+      "main_max_roll": 147,
       "entries": [
         {
           "item_id": 532,
@@ -154223,8 +154170,8 @@
             15
           ],
           "weight": 2,
-          "out_of": 133,
-          "rarity": 0.0150376,
+          "out_of": 147,
+          "rarity": 0.0136054,
           "section": "Runes and ammunition"
         },
         {
@@ -154235,8 +154182,8 @@
             1
           ],
           "weight": 2,
-          "out_of": 133,
-          "rarity": 0.0150376,
+          "out_of": 147,
+          "rarity": 0.0136054,
           "section": "Runes and ammunition"
         },
         {
@@ -154247,8 +154194,8 @@
             4
           ],
           "weight": 2,
-          "out_of": 133,
-          "rarity": 0.0150376,
+          "out_of": 147,
+          "rarity": 0.0136054,
           "section": "Runes and ammunition"
         },
         {
@@ -154259,8 +154206,8 @@
             44
           ],
           "weight": 60,
-          "out_of": 133,
-          "rarity": 0.4511278,
+          "out_of": 147,
+          "rarity": 0.4081633,
           "section": "Coins"
         },
         {
@@ -154271,8 +154218,8 @@
             32
           ],
           "weight": 11,
-          "out_of": 133,
-          "rarity": 0.0827068,
+          "out_of": 147,
+          "rarity": 0.0748299,
           "section": "Coins"
         },
         {
@@ -154283,8 +154230,8 @@
             24
           ],
           "weight": 9,
-          "out_of": 133,
-          "rarity": 0.0676692,
+          "out_of": 147,
+          "rarity": 0.0612245,
           "section": "Coins"
         },
         {
@@ -154295,8 +154242,8 @@
             23
           ],
           "weight": 7,
-          "out_of": 133,
-          "rarity": 0.0526316,
+          "out_of": 147,
+          "rarity": 0.047619,
           "section": "Coins"
         },
         {
@@ -154307,8 +154254,8 @@
             2
           ],
           "weight": 10,
-          "out_of": 133,
-          "rarity": 0.075188,
+          "out_of": 147,
+          "rarity": 0.0680272,
           "section": "Other"
         },
         {
@@ -154319,8 +154266,8 @@
             50
           ],
           "weight": 4,
-          "out_of": 133,
-          "rarity": 0.0300752,
+          "out_of": 147,
+          "rarity": 0.0272109,
           "section": "Other"
         },
         {
@@ -154331,8 +154278,8 @@
             3
           ],
           "weight": 4,
-          "out_of": 133,
-          "rarity": 0.0300752,
+          "out_of": 147,
+          "rarity": 0.0272109,
           "section": "Other"
         },
         {
@@ -154343,8 +154290,8 @@
             1
           ],
           "weight": 3,
-          "out_of": 133,
-          "rarity": 0.0225564,
+          "out_of": 147,
+          "rarity": 0.0204082,
           "section": "Other"
         },
         {
@@ -154355,8 +154302,8 @@
             2
           ],
           "weight": 4,
-          "out_of": 133,
-          "rarity": 0.0300752,
+          "out_of": 147,
+          "rarity": 0.0272109,
           "section": "Other"
         },
         {
@@ -154367,8 +154314,8 @@
             1
           ],
           "weight": 2,
-          "out_of": 133,
-          "rarity": 0.0150376,
+          "out_of": 147,
+          "rarity": 0.0136054,
           "section": "Other"
         },
         {
@@ -154379,8 +154326,8 @@
             5
           ],
           "weight": 2,
-          "out_of": 133,
-          "rarity": 0.0150376,
+          "out_of": 147,
+          "rarity": 0.0136054,
           "section": "Other"
         },
         {
@@ -154391,8 +154338,8 @@
             5
           ],
           "weight": 2,
-          "out_of": 133,
-          "rarity": 0.0150376,
+          "out_of": 147,
+          "rarity": 0.0136054,
           "section": "Other"
         },
         {
@@ -154403,8 +154350,8 @@
             2
           ],
           "weight": 1,
-          "out_of": 133,
-          "rarity": 0.0075188,
+          "out_of": 147,
+          "rarity": 0.0068027,
           "section": "Other"
         },
         {
@@ -154415,8 +154362,8 @@
             1
           ],
           "weight": 1,
-          "out_of": 133,
-          "rarity": 0.0075188,
+          "out_of": 147,
+          "rarity": 0.0068027,
           "section": "Other"
         },
         {
@@ -154427,8 +154374,8 @@
             1
           ],
           "weight": 1,
-          "out_of": 133,
-          "rarity": 0.0075188,
+          "out_of": 147,
+          "rarity": 0.0068027,
           "section": "Other"
         },
         {
@@ -154444,6 +154391,13 @@
           "out_of": 128,
           "rarity": 0.0078125,
           "section": "Gem drop table"
+        },
+        {
+          "shared_table": "uncommonSeed",
+          "weight": 14,
+          "out_of": 128,
+          "rarity": 0.109375,
+          "section": "Seeds"
         }
       ],
       "tertiary": [
@@ -159049,7 +159003,7 @@
       "label": "Drops (Armed)",
       "table_name": "Skeleton Drops (Armed)",
       "wiki_page": "Skeleton",
-      "main_max_roll": 148,
+      "main_max_roll": 128,
       "entries": [
         {
           "item_id": 526,
@@ -159070,8 +159024,8 @@
             1
           ],
           "weight": 6,
-          "out_of": 148,
-          "rarity": 0.0405405,
+          "out_of": 128,
+          "rarity": 0.046875,
           "section": "Weapons and armour"
         },
         {
@@ -159082,8 +159036,8 @@
             1
           ],
           "weight": 4,
-          "out_of": 148,
-          "rarity": 0.027027,
+          "out_of": 128,
+          "rarity": 0.03125,
           "section": "Weapons and armour"
         },
         {
@@ -159094,8 +159048,8 @@
             1
           ],
           "weight": 2,
-          "out_of": 148,
-          "rarity": 0.0135135,
+          "out_of": 128,
+          "rarity": 0.015625,
           "section": "Weapons and armour"
         },
         {
@@ -159106,8 +159060,8 @@
             1
           ],
           "weight": 1,
-          "out_of": 148,
-          "rarity": 0.0067568,
+          "out_of": 128,
+          "rarity": 0.0078125,
           "section": "Weapons and armour"
         },
         {
@@ -159134,8 +159088,8 @@
           ],
           "quantity_selection": "unknown",
           "weight": 3,
-          "out_of": 148,
-          "rarity": 0.0202703,
+          "out_of": 128,
+          "rarity": 0.0234375,
           "section": "Runes and ammunition"
         },
         {
@@ -159146,8 +159100,8 @@
             9
           ],
           "weight": 3,
-          "out_of": 148,
-          "rarity": 0.0202703,
+          "out_of": 128,
+          "rarity": 0.0234375,
           "section": "Runes and ammunition"
         },
         {
@@ -159158,8 +159112,8 @@
             5
           ],
           "weight": 3,
-          "out_of": 148,
-          "rarity": 0.0202703,
+          "out_of": 128,
+          "rarity": 0.0234375,
           "section": "Runes and ammunition"
         },
         {
@@ -159170,8 +159124,8 @@
             12
           ],
           "weight": 2,
-          "out_of": 148,
-          "rarity": 0.0135135,
+          "out_of": 128,
+          "rarity": 0.015625,
           "section": "Runes and ammunition"
         },
         {
@@ -159182,8 +159136,8 @@
             2
           ],
           "weight": 2,
-          "out_of": 148,
-          "rarity": 0.0135135,
+          "out_of": 128,
+          "rarity": 0.015625,
           "section": "Runes and ammunition"
         },
         {
@@ -159194,8 +159148,8 @@
             2
           ],
           "weight": 1,
-          "out_of": 148,
-          "rarity": 0.0067568,
+          "out_of": 128,
+          "rarity": 0.0078125,
           "section": "Runes and ammunition"
         },
         {
@@ -159205,9 +159159,9 @@
             10,
             10
           ],
-          "weight": 44,
-          "out_of": 148,
-          "rarity": 0.2972973,
+          "weight": 24,
+          "out_of": 128,
+          "rarity": 0.1875,
           "section": "Coins",
           "notes": [
             "The drop rate decreases to 24/128 on a members world."
@@ -159221,8 +159175,8 @@
             5
           ],
           "weight": 25,
-          "out_of": 148,
-          "rarity": 0.1689189,
+          "out_of": 128,
+          "rarity": 0.1953125,
           "section": "Coins"
         },
         {
@@ -159233,8 +159187,8 @@
             25
           ],
           "weight": 8,
-          "out_of": 148,
-          "rarity": 0.0540541,
+          "out_of": 128,
+          "rarity": 0.0625,
           "section": "Coins"
         },
         {
@@ -159245,8 +159199,8 @@
             45
           ],
           "weight": 4,
-          "out_of": 148,
-          "rarity": 0.027027,
+          "out_of": 128,
+          "rarity": 0.03125,
           "section": "Coins"
         },
         {
@@ -159257,8 +159211,8 @@
             65
           ],
           "weight": 3,
-          "out_of": 148,
-          "rarity": 0.0202703,
+          "out_of": 128,
+          "rarity": 0.0234375,
           "section": "Coins"
         },
         {
@@ -159269,14 +159223,14 @@
             1
           ],
           "weight": 2,
-          "out_of": 148,
-          "rarity": 0.0135135,
+          "out_of": 128,
+          "rarity": 0.015625,
           "section": "Coins"
         },
         {
           "nothing": true,
           "weight": 8,
-          "out_of": 148
+          "out_of": 128
         },
         {
           "item_id": 2349,
@@ -159286,8 +159240,8 @@
             1
           ],
           "weight": 5,
-          "out_of": 148,
-          "rarity": 0.0337838,
+          "out_of": 128,
+          "rarity": 0.0390625,
           "section": "Other",
           "notes": [
             "For the level 25 variant, only the skeleton with round shield & warhammer drops bronze bars."
@@ -160464,6 +160418,13 @@
           "out_of": 128,
           "rarity": 0.015625,
           "section": "Gem drop table"
+        },
+        {
+          "shared_table": "uncommonSeed",
+          "weight": 20,
+          "out_of": 128,
+          "rarity": 0.15625,
+          "section": "Seeds"
         }
       ],
       "tertiary": []
@@ -169543,6 +169504,13 @@
           "out_of": 110,
           "rarity": 0.0454545,
           "section": "Gem drop table"
+        },
+        {
+          "shared_table": "uncommonSeed",
+          "weight": 9,
+          "out_of": 110,
+          "rarity": 0.0818182,
+          "section": "Seeds"
         }
       ],
       "tertiary": [
@@ -177148,6 +177116,13 @@
           "out_of": 100,
           "rarity": 0.01,
           "section": "Gem drop table"
+        },
+        {
+          "shared_table": "uncommonSeed",
+          "weight": 6,
+          "out_of": 100,
+          "rarity": 0.06,
+          "section": "Seeds"
         }
       ],
       "tertiary": [
@@ -183031,6 +183006,13 @@
           "out_of": 128,
           "rarity": 0.0390625,
           "section": "Gem drop table"
+        },
+        {
+          "shared_table": "uncommonSeed",
+          "weight": 19,
+          "out_of": 128,
+          "rarity": 0.1484375,
+          "section": "Seeds"
         }
       ],
       "tertiary": [
@@ -185037,6 +185019,13 @@
           "out_of": 128,
           "rarity": 0.0078125,
           "section": "Other"
+        },
+        {
+          "shared_table": "uncommonSeed",
+          "weight": 20,
+          "out_of": 128,
+          "rarity": 0.15625,
+          "section": "Seeds"
         }
       ],
       "tertiary": []
@@ -186846,6 +186835,13 @@
           "out_of": 128,
           "rarity": 0.0390625,
           "section": "Gem drop table"
+        },
+        {
+          "shared_table": "uncommonSeed",
+          "weight": 19,
+          "out_of": 128,
+          "rarity": 0.1484375,
+          "section": "Seeds"
         }
       ],
       "tertiary": [
@@ -187657,6 +187653,13 @@
           "out_of": 128,
           "rarity": 0.0390625,
           "section": "Gem drop table"
+        },
+        {
+          "shared_table": "uncommonSeed",
+          "weight": 19,
+          "out_of": 128,
+          "rarity": 0.1484375,
+          "section": "Seeds"
         }
       ],
       "tertiary": [
@@ -189571,6 +189574,13 @@
           "weight": 2,
           "out_of": 100,
           "rarity": 0.02,
+          "section": "Seeds"
+        },
+        {
+          "shared_table": "uncommonSeed",
+          "weight": 12,
+          "out_of": 100,
+          "rarity": 0.12,
           "section": "Seeds"
         },
         {
@@ -196629,6 +196639,13 @@
           "section": "Rare drop table"
         },
         {
+          "shared_table": "uncommonSeed",
+          "weight": 1,
+          "out_of": 93,
+          "rarity": 0.0107527,
+          "section": "Seeds"
+        },
+        {
           "item_id": 45,
           "name": "Opal bolt tips",
           "quantity": [
@@ -199636,7 +199653,7 @@
       "label": "Level 36 drops",
       "table_name": "White Knight Level 36 drops",
       "wiki_page": "White Knight",
-      "main_max_roll": 129,
+      "main_max_roll": 128,
       "entries": [
         {
           "item_id": 526,
@@ -199657,8 +199674,8 @@
             1
           ],
           "weight": 2,
-          "out_of": 129,
-          "rarity": 0.0155039,
+          "out_of": 128,
+          "rarity": 0.015625,
           "section": "Weapons and armour"
         },
         {
@@ -199669,8 +199686,8 @@
             1
           ],
           "weight": 1,
-          "out_of": 129,
-          "rarity": 0.0077519,
+          "out_of": 128,
+          "rarity": 0.0078125,
           "section": "Weapons and armour"
         },
         {
@@ -199681,8 +199698,8 @@
             1
           ],
           "weight": 1,
-          "out_of": 129,
-          "rarity": 0.0077519,
+          "out_of": 128,
+          "rarity": 0.0078125,
           "section": "Weapons and armour"
         },
         {
@@ -199693,8 +199710,8 @@
             5
           ],
           "weight": 11,
-          "out_of": 129,
-          "rarity": 0.0852713,
+          "out_of": 128,
+          "rarity": 0.0859375,
           "section": "Runes and ammunition"
         },
         {
@@ -199705,8 +199722,8 @@
             4
           ],
           "weight": 4,
-          "out_of": 129,
-          "rarity": 0.0310078,
+          "out_of": 128,
+          "rarity": 0.03125,
           "section": "Runes and ammunition"
         },
         {
@@ -199717,8 +199734,8 @@
             13
           ],
           "weight": 3,
-          "out_of": 129,
-          "rarity": 0.0232558,
+          "out_of": 128,
+          "rarity": 0.0234375,
           "section": "Runes and ammunition"
         },
         {
@@ -199729,8 +199746,8 @@
             2
           ],
           "weight": 3,
-          "out_of": 129,
-          "rarity": 0.0232558,
+          "out_of": 128,
+          "rarity": 0.0234375,
           "section": "Runes and ammunition"
         },
         {
@@ -199741,8 +199758,8 @@
             30
           ],
           "weight": 3,
-          "out_of": 129,
-          "rarity": 0.0232558,
+          "out_of": 128,
+          "rarity": 0.0234375,
           "section": "Runes and ammunition"
         },
         {
@@ -199753,8 +199770,8 @@
             5
           ],
           "weight": 2,
-          "out_of": 129,
-          "rarity": 0.0155039,
+          "out_of": 128,
+          "rarity": 0.015625,
           "section": "Runes and ammunition"
         },
         {
@@ -199765,8 +199782,8 @@
             2
           ],
           "weight": 1,
-          "out_of": 129,
-          "rarity": 0.0077519,
+          "out_of": 128,
+          "rarity": 0.0078125,
           "section": "Runes and ammunition"
         },
         {
@@ -199777,8 +199794,8 @@
             2
           ],
           "weight": 1,
-          "out_of": 129,
-          "rarity": 0.0077519,
+          "out_of": 128,
+          "rarity": 0.0078125,
           "section": "Runes and ammunition"
         },
         {
@@ -199789,8 +199806,8 @@
             2
           ],
           "weight": 1,
-          "out_of": 129,
-          "rarity": 0.0077519,
+          "out_of": 128,
+          "rarity": 0.0078125,
           "section": "Runes and ammunition"
         },
         {
@@ -199801,8 +199818,8 @@
             48
           ],
           "weight": 15,
-          "out_of": 129,
-          "rarity": 0.1162791,
+          "out_of": 128,
+          "rarity": 0.1171875,
           "section": "Coins"
         },
         {
@@ -199813,8 +199830,8 @@
             15
           ],
           "weight": 15,
-          "out_of": 129,
-          "rarity": 0.1162791,
+          "out_of": 128,
+          "rarity": 0.1171875,
           "section": "Coins"
         },
         {
@@ -199824,9 +199841,9 @@
             8,
             8
           ],
-          "weight": 11,
-          "out_of": 129,
-          "rarity": 0.0852713,
+          "weight": 10,
+          "out_of": 128,
+          "rarity": 0.078125,
           "section": "Coins",
           "notes": [
             "The drop rate decreases to 10/128 while in a members world."
@@ -199840,8 +199857,8 @@
             53
           ],
           "weight": 10,
-          "out_of": 129,
-          "rarity": 0.0775194,
+          "out_of": 128,
+          "rarity": 0.078125,
           "section": "Coins"
         },
         {
@@ -199852,8 +199869,8 @@
             1
           ],
           "weight": 5,
-          "out_of": 129,
-          "rarity": 0.0387597,
+          "out_of": 128,
+          "rarity": 0.0390625,
           "section": "Coins"
         },
         {
@@ -199864,8 +199881,8 @@
             2
           ],
           "weight": 5,
-          "out_of": 129,
-          "rarity": 0.0387597,
+          "out_of": 128,
+          "rarity": 0.0390625,
           "section": "Coins"
         },
         {
@@ -199876,8 +199893,8 @@
             120
           ],
           "weight": 1,
-          "out_of": 129,
-          "rarity": 0.0077519,
+          "out_of": 128,
+          "rarity": 0.0078125,
           "section": "Coins"
         },
         {
@@ -199888,8 +199905,8 @@
             2
           ],
           "weight": 6,
-          "out_of": 129,
-          "rarity": 0.0465116,
+          "out_of": 128,
+          "rarity": 0.046875,
           "section": "Other"
         },
         {
@@ -199900,14 +199917,14 @@
             1
           ],
           "weight": 2,
-          "out_of": 129,
-          "rarity": 0.0155039,
+          "out_of": 128,
+          "rarity": 0.015625,
           "section": "Other"
         },
         {
           "nothing": true,
           "weight": 2,
-          "out_of": 129
+          "out_of": 128
         },
         {
           "item_id": 2335,
@@ -199917,8 +199934,8 @@
             1
           ],
           "weight": 1,
-          "out_of": 129,
-          "rarity": 0.0077519,
+          "out_of": 128,
+          "rarity": 0.0078125,
           "section": "Other"
         },
         {
@@ -199929,8 +199946,8 @@
             1
           ],
           "weight": 1,
-          "out_of": 129,
-          "rarity": 0.0077519,
+          "out_of": 128,
+          "rarity": 0.0078125,
           "section": "Other"
         },
         {
@@ -199941,8 +199958,8 @@
             1
           ],
           "weight": 1,
-          "out_of": 129,
-          "rarity": 0.0077519,
+          "out_of": 128,
+          "rarity": 0.0078125,
           "section": "Other"
         },
         {
@@ -199974,7 +199991,7 @@
       "label": "Level 38 drops",
       "table_name": "White Knight Level 38 drops",
       "wiki_page": "White Knight",
-      "main_max_roll": 129,
+      "main_max_roll": 128,
       "entries": [
         {
           "item_id": 526,
@@ -199995,8 +200012,8 @@
             1
           ],
           "weight": 2,
-          "out_of": 129,
-          "rarity": 0.0155039,
+          "out_of": 128,
+          "rarity": 0.015625,
           "section": "Weapons and armour"
         },
         {
@@ -200007,8 +200024,8 @@
             1
           ],
           "weight": 2,
-          "out_of": 129,
-          "rarity": 0.0155039,
+          "out_of": 128,
+          "rarity": 0.015625,
           "section": "Weapons and armour"
         },
         {
@@ -200019,8 +200036,8 @@
             1
           ],
           "weight": 1,
-          "out_of": 129,
-          "rarity": 0.0077519,
+          "out_of": 128,
+          "rarity": 0.0078125,
           "section": "Weapons and armour"
         },
         {
@@ -200031,8 +200048,8 @@
             7
           ],
           "weight": 8,
-          "out_of": 129,
-          "rarity": 0.0620155,
+          "out_of": 128,
+          "rarity": 0.0625,
           "section": "Runes and ammunition"
         },
         {
@@ -200043,8 +200060,8 @@
             5
           ],
           "weight": 5,
-          "out_of": 129,
-          "rarity": 0.0387597,
+          "out_of": 128,
+          "rarity": 0.0390625,
           "section": "Runes and ammunition"
         },
         {
@@ -200055,8 +200072,8 @@
             5
           ],
           "weight": 4,
-          "out_of": 129,
-          "rarity": 0.0310078,
+          "out_of": 128,
+          "rarity": 0.03125,
           "section": "Runes and ammunition"
         },
         {
@@ -200067,8 +200084,8 @@
             14
           ],
           "weight": 3,
-          "out_of": 129,
-          "rarity": 0.0232558,
+          "out_of": 128,
+          "rarity": 0.0234375,
           "section": "Runes and ammunition"
         },
         {
@@ -200079,8 +200096,8 @@
             3
           ],
           "weight": 3,
-          "out_of": 129,
-          "rarity": 0.0232558,
+          "out_of": 128,
+          "rarity": 0.0234375,
           "section": "Runes and ammunition"
         },
         {
@@ -200091,8 +200108,8 @@
             35
           ],
           "weight": 3,
-          "out_of": 129,
-          "rarity": 0.0232558,
+          "out_of": 128,
+          "rarity": 0.0234375,
           "section": "Runes and ammunition"
         },
         {
@@ -200103,8 +200120,8 @@
             2
           ],
           "weight": 3,
-          "out_of": 129,
-          "rarity": 0.0232558,
+          "out_of": 128,
+          "rarity": 0.0234375,
           "section": "Runes and ammunition"
         },
         {
@@ -200115,8 +200132,8 @@
             2
           ],
           "weight": 1,
-          "out_of": 129,
-          "rarity": 0.0077519,
+          "out_of": 128,
+          "rarity": 0.0078125,
           "section": "Runes and ammunition"
         },
         {
@@ -200127,8 +200144,8 @@
             3
           ],
           "weight": 1,
-          "out_of": 129,
-          "rarity": 0.0077519,
+          "out_of": 128,
+          "rarity": 0.0078125,
           "section": "Runes and ammunition"
         },
         {
@@ -200139,8 +200156,8 @@
             15
           ],
           "weight": 13,
-          "out_of": 129,
-          "rarity": 0.1007752,
+          "out_of": 128,
+          "rarity": 0.1015625,
           "section": "Coins"
         },
         {
@@ -200150,9 +200167,9 @@
             10,
             10
           ],
-          "weight": 11,
-          "out_of": 129,
-          "rarity": 0.0852713,
+          "weight": 10,
+          "out_of": 128,
+          "rarity": 0.078125,
           "section": "Coins",
           "notes": [
             "The drop rate decreases to 10/128 while in a members world."
@@ -200166,8 +200183,8 @@
             54
           ],
           "weight": 10,
-          "out_of": 129,
-          "rarity": 0.0775194,
+          "out_of": 128,
+          "rarity": 0.078125,
           "section": "Coins"
         },
         {
@@ -200178,8 +200195,8 @@
             58
           ],
           "weight": 10,
-          "out_of": 129,
-          "rarity": 0.0775194,
+          "out_of": 128,
+          "rarity": 0.078125,
           "section": "Coins"
         },
         {
@@ -200190,8 +200207,8 @@
             3
           ],
           "weight": 6,
-          "out_of": 129,
-          "rarity": 0.0465116,
+          "out_of": 128,
+          "rarity": 0.046875,
           "section": "Coins"
         },
         {
@@ -200202,8 +200219,8 @@
             1
           ],
           "weight": 1,
-          "out_of": 129,
-          "rarity": 0.0077519,
+          "out_of": 128,
+          "rarity": 0.0078125,
           "section": "Coins"
         },
         {
@@ -200214,8 +200231,8 @@
             120
           ],
           "weight": 1,
-          "out_of": 129,
-          "rarity": 0.0077519,
+          "out_of": 128,
+          "rarity": 0.0078125,
           "section": "Coins"
         },
         {
@@ -200226,8 +200243,8 @@
             2
           ],
           "weight": 8,
-          "out_of": 129,
-          "rarity": 0.0620155,
+          "out_of": 128,
+          "rarity": 0.0625,
           "section": "Other"
         },
         {
@@ -200238,8 +200255,8 @@
             1
           ],
           "weight": 2,
-          "out_of": 129,
-          "rarity": 0.0155039,
+          "out_of": 128,
+          "rarity": 0.015625,
           "section": "Other"
         },
         {
@@ -200250,8 +200267,8 @@
             1
           ],
           "weight": 1,
-          "out_of": 129,
-          "rarity": 0.0077519,
+          "out_of": 128,
+          "rarity": 0.0078125,
           "section": "Other"
         },
         {
@@ -200262,8 +200279,8 @@
             1
           ],
           "weight": 1,
-          "out_of": 129,
-          "rarity": 0.0077519,
+          "out_of": 128,
+          "rarity": 0.0078125,
           "section": "Other"
         },
         {
@@ -200274,14 +200291,14 @@
             1
           ],
           "weight": 1,
-          "out_of": 129,
-          "rarity": 0.0077519,
+          "out_of": 128,
+          "rarity": 0.0078125,
           "section": "Other"
         },
         {
           "nothing": true,
           "weight": 1,
-          "out_of": 129
+          "out_of": 128
         },
         {
           "shared_table": "herb",
@@ -200488,9 +200505,9 @@
             15,
             15
           ],
-          "weight": 11,
+          "weight": 10,
           "out_of": 128,
-          "rarity": 0.0859375,
+          "rarity": 0.078125,
           "section": "Coins",
           "notes": [
             "The drop rate decreases to 10/128 while in a members world."
@@ -200821,9 +200838,9 @@
             15,
             15
           ],
-          "weight": 11,
+          "weight": 10,
           "out_of": 128,
-          "rarity": 0.0859375,
+          "rarity": 0.078125,
           "section": "Coins",
           "notes": [
             "The drop rate decreases to 10/128 while in a members world."
@@ -201371,7 +201388,7 @@
       "label": "Drops",
       "table_name": "Wizard Drops",
       "wiki_page": "Wizard",
-      "main_max_roll": 129,
+      "main_max_roll": 128,
       "entries": [
         {
           "item_id": 526,
@@ -201392,8 +201409,8 @@
             1
           ],
           "weight": 8,
-          "out_of": 129,
-          "rarity": 0.0620155,
+          "out_of": 128,
+          "rarity": 0.0625,
           "section": "Weapons and armour"
         },
         {
@@ -201404,8 +201421,8 @@
             1
           ],
           "weight": 7,
-          "out_of": 129,
-          "rarity": 0.0542636,
+          "out_of": 128,
+          "rarity": 0.0546875,
           "section": "Weapons and armour"
         },
         {
@@ -201416,8 +201433,8 @@
             1
           ],
           "weight": 3,
-          "out_of": 129,
-          "rarity": 0.0232558,
+          "out_of": 128,
+          "rarity": 0.0234375,
           "section": "Weapons and armour"
         },
         {
@@ -201428,8 +201445,8 @@
             2
           ],
           "weight": 8,
-          "out_of": 129,
-          "rarity": 0.0620155,
+          "out_of": 128,
+          "rarity": 0.0625,
           "section": "Runes"
         },
         {
@@ -201440,8 +201457,8 @@
             2
           ],
           "weight": 8,
-          "out_of": 129,
-          "rarity": 0.0620155,
+          "out_of": 128,
+          "rarity": 0.0625,
           "section": "Runes"
         },
         {
@@ -201452,8 +201469,8 @@
             5
           ],
           "weight": 3,
-          "out_of": 129,
-          "rarity": 0.0232558,
+          "out_of": 128,
+          "rarity": 0.0234375,
           "section": "Runes"
         },
         {
@@ -201464,8 +201481,8 @@
             5
           ],
           "weight": 3,
-          "out_of": 129,
-          "rarity": 0.0232558,
+          "out_of": 128,
+          "rarity": 0.0234375,
           "section": "Runes"
         },
         {
@@ -201476,8 +201493,8 @@
             5
           ],
           "weight": 3,
-          "out_of": 129,
-          "rarity": 0.0232558,
+          "out_of": 128,
+          "rarity": 0.0234375,
           "section": "Runes"
         },
         {
@@ -201488,8 +201505,8 @@
             5
           ],
           "weight": 3,
-          "out_of": 129,
-          "rarity": 0.0232558,
+          "out_of": 128,
+          "rarity": 0.0234375,
           "section": "Runes"
         },
         {
@@ -201500,8 +201517,8 @@
             5
           ],
           "weight": 3,
-          "out_of": 129,
-          "rarity": 0.0232558,
+          "out_of": 128,
+          "rarity": 0.0234375,
           "section": "Runes"
         },
         {
@@ -201512,8 +201529,8 @@
             5
           ],
           "weight": 3,
-          "out_of": 129,
-          "rarity": 0.0232558,
+          "out_of": 128,
+          "rarity": 0.0234375,
           "section": "Runes"
         },
         {
@@ -201524,8 +201541,8 @@
             12
           ],
           "weight": 2,
-          "out_of": 129,
-          "rarity": 0.0155039,
+          "out_of": 128,
+          "rarity": 0.015625,
           "section": "Runes"
         },
         {
@@ -201536,8 +201553,8 @@
             12
           ],
           "weight": 2,
-          "out_of": 129,
-          "rarity": 0.0155039,
+          "out_of": 128,
+          "rarity": 0.015625,
           "section": "Runes"
         },
         {
@@ -201548,8 +201565,8 @@
             12
           ],
           "weight": 2,
-          "out_of": 129,
-          "rarity": 0.0155039,
+          "out_of": 128,
+          "rarity": 0.015625,
           "section": "Runes"
         },
         {
@@ -201560,8 +201577,8 @@
             12
           ],
           "weight": 2,
-          "out_of": 129,
-          "rarity": 0.0155039,
+          "out_of": 128,
+          "rarity": 0.015625,
           "section": "Runes"
         },
         {
@@ -201572,8 +201589,8 @@
             12
           ],
           "weight": 2,
-          "out_of": 129,
-          "rarity": 0.0155039,
+          "out_of": 128,
+          "rarity": 0.015625,
           "section": "Runes"
         },
         {
@@ -201584,8 +201601,8 @@
             12
           ],
           "weight": 2,
-          "out_of": 129,
-          "rarity": 0.0155039,
+          "out_of": 128,
+          "rarity": 0.015625,
           "section": "Runes"
         },
         {
@@ -201596,8 +201613,8 @@
             2
           ],
           "weight": 1,
-          "out_of": 129,
-          "rarity": 0.0077519,
+          "out_of": 128,
+          "rarity": 0.0078125,
           "section": "Runes"
         },
         {
@@ -201608,8 +201625,8 @@
             2
           ],
           "weight": 1,
-          "out_of": 129,
-          "rarity": 0.0077519,
+          "out_of": 128,
+          "rarity": 0.0078125,
           "section": "Runes"
         },
         {
@@ -201620,8 +201637,8 @@
             1
           ],
           "weight": 3,
-          "out_of": 129,
-          "rarity": 0.0232558,
+          "out_of": 128,
+          "rarity": 0.0234375,
           "section": "Talismans"
         },
         {
@@ -201631,9 +201648,9 @@
             1,
             1
           ],
-          "weight": 4,
-          "out_of": 129,
-          "rarity": 0.0310078,
+          "weight": 3,
+          "out_of": 128,
+          "rarity": 0.0234375,
           "section": "Talismans",
           "notes": [
             "The drop rate of the mind talisman decreases to 3/128 in a members world."
@@ -201647,8 +201664,8 @@
             1
           ],
           "weight": 23,
-          "out_of": 129,
-          "rarity": 0.1782946,
+          "out_of": 128,
+          "rarity": 0.1796875,
           "section": "Coins"
         },
         {
@@ -201659,8 +201676,8 @@
             2
           ],
           "weight": 9,
-          "out_of": 129,
-          "rarity": 0.0697674,
+          "out_of": 128,
+          "rarity": 0.0703125,
           "section": "Coins"
         },
         {
@@ -201671,8 +201688,8 @@
             18
           ],
           "weight": 7,
-          "out_of": 129,
-          "rarity": 0.0542636,
+          "out_of": 128,
+          "rarity": 0.0546875,
           "section": "Coins"
         },
         {
@@ -201683,14 +201700,14 @@
             30
           ],
           "weight": 1,
-          "out_of": 129,
-          "rarity": 0.0077519,
+          "out_of": 128,
+          "rarity": 0.0078125,
           "section": "Coins"
         },
         {
           "nothing": true,
           "weight": 16,
-          "out_of": 129
+          "out_of": 128
         }
       ],
       "tertiary": [
@@ -205980,7 +205997,7 @@
       "label": "Drops (level 13)",
       "table_name": "Zombie Drops (level 13)",
       "wiki_page": "Zombie",
-      "main_max_roll": 153,
+      "main_max_roll": 128,
       "entries": [
         {
           "item_id": 526,
@@ -206001,8 +206018,8 @@
             1
           ],
           "weight": 4,
-          "out_of": 153,
-          "rarity": 0.0261438,
+          "out_of": 128,
+          "rarity": 0.03125,
           "section": "Weapons and armour"
         },
         {
@@ -206013,8 +206030,8 @@
             1
           ],
           "weight": 1,
-          "out_of": 153,
-          "rarity": 0.0065359,
+          "out_of": 128,
+          "rarity": 0.0078125,
           "section": "Weapons and armour"
         },
         {
@@ -206025,8 +206042,8 @@
             1
           ],
           "weight": 1,
-          "out_of": 153,
-          "rarity": 0.0065359,
+          "out_of": 128,
+          "rarity": 0.0078125,
           "section": "Weapons and armour"
         },
         {
@@ -206037,8 +206054,8 @@
             5
           ],
           "weight": 7,
-          "out_of": 153,
-          "rarity": 0.0457516,
+          "out_of": 128,
+          "rarity": 0.0546875,
           "section": "Runes and ammunition"
         },
         {
@@ -206049,8 +206066,8 @@
             6
           ],
           "weight": 5,
-          "out_of": 153,
-          "rarity": 0.0326797,
+          "out_of": 128,
+          "rarity": 0.0390625,
           "section": "Runes and ammunition"
         },
         {
@@ -206061,8 +206078,8 @@
             5
           ],
           "weight": 5,
-          "out_of": 153,
-          "rarity": 0.0326797,
+          "out_of": 128,
+          "rarity": 0.0390625,
           "section": "Runes and ammunition"
         },
         {
@@ -206073,8 +206090,8 @@
             13
           ],
           "weight": 4,
-          "out_of": 153,
-          "rarity": 0.0261438,
+          "out_of": 128,
+          "rarity": 0.03125,
           "section": "Runes and ammunition"
         },
         {
@@ -206085,8 +206102,8 @@
             8
           ],
           "weight": 4,
-          "out_of": 153,
-          "rarity": 0.0261438,
+          "out_of": 128,
+          "rarity": 0.03125,
           "section": "Runes and ammunition"
         },
         {
@@ -206097,8 +206114,8 @@
             5
           ],
           "weight": 2,
-          "out_of": 153,
-          "rarity": 0.0130719,
+          "out_of": 128,
+          "rarity": 0.015625,
           "section": "Runes and ammunition"
         },
         {
@@ -206109,8 +206126,8 @@
             6
           ],
           "weight": 1,
-          "out_of": 153,
-          "rarity": 0.0065359,
+          "out_of": 128,
+          "rarity": 0.0078125,
           "section": "Runes and ammunition"
         },
         {
@@ -206120,9 +206137,9 @@
             10,
             10
           ],
-          "weight": 36,
-          "out_of": 153,
-          "rarity": 0.2352941,
+          "weight": 11,
+          "out_of": 128,
+          "rarity": 0.0859375,
           "section": "Coins",
           "notes": [
             "The drop rate decreases to 11/128 on a members world."
@@ -206136,8 +206153,8 @@
             4
           ],
           "weight": 4,
-          "out_of": 153,
-          "rarity": 0.0261438,
+          "out_of": 128,
+          "rarity": 0.03125,
           "section": "Coins"
         },
         {
@@ -206148,8 +206165,8 @@
             18
           ],
           "weight": 3,
-          "out_of": 153,
-          "rarity": 0.0196078,
+          "out_of": 128,
+          "rarity": 0.0234375,
           "section": "Coins"
         },
         {
@@ -206160,8 +206177,8 @@
             13
           ],
           "weight": 2,
-          "out_of": 153,
-          "rarity": 0.0130719,
+          "out_of": 128,
+          "rarity": 0.015625,
           "section": "Coins"
         },
         {
@@ -206172,8 +206189,8 @@
             28
           ],
           "weight": 2,
-          "out_of": 153,
-          "rarity": 0.0130719,
+          "out_of": 128,
+          "rarity": 0.015625,
           "section": "Coins"
         },
         {
@@ -206184,14 +206201,14 @@
             5
           ],
           "weight": 37,
-          "out_of": 153,
-          "rarity": 0.2418301,
+          "out_of": 128,
+          "rarity": 0.2890625,
           "section": "Other"
         },
         {
           "nothing": true,
           "weight": 8,
-          "out_of": 153
+          "out_of": 128
         },
         {
           "item_id": 436,
@@ -206201,8 +206218,8 @@
             1
           ],
           "weight": 2,
-          "out_of": 153,
-          "rarity": 0.0130719,
+          "out_of": 128,
+          "rarity": 0.015625,
           "section": "Other"
         },
         {
@@ -206298,7 +206315,7 @@
       "label": "Drops (level 24)",
       "table_name": "Zombie Drops (level 24)",
       "wiki_page": "Zombie",
-      "main_max_roll": 158,
+      "main_max_roll": 128,
       "entries": [
         {
           "item_id": 526,
@@ -206319,8 +206336,8 @@
             1
           ],
           "weight": 3,
-          "out_of": 158,
-          "rarity": 0.0189873,
+          "out_of": 128,
+          "rarity": 0.0234375,
           "section": "Weapons and armour"
         },
         {
@@ -206331,8 +206348,8 @@
             1
           ],
           "weight": 2,
-          "out_of": 158,
-          "rarity": 0.0126582,
+          "out_of": 128,
+          "rarity": 0.015625,
           "section": "Weapons and armour"
         },
         {
@@ -206343,8 +206360,8 @@
             1
           ],
           "weight": 1,
-          "out_of": 158,
-          "rarity": 0.0063291,
+          "out_of": 128,
+          "rarity": 0.0078125,
           "section": "Weapons and armour"
         },
         {
@@ -206355,8 +206372,8 @@
             1
           ],
           "weight": 3,
-          "out_of": 158,
-          "rarity": 0.0189873,
+          "out_of": 128,
+          "rarity": 0.0234375,
           "section": "Runes and ammunition"
         },
         {
@@ -206367,8 +206384,8 @@
             3
           ],
           "weight": 2,
-          "out_of": 158,
-          "rarity": 0.0126582,
+          "out_of": 128,
+          "rarity": 0.015625,
           "section": "Runes and ammunition"
         },
         {
@@ -206379,8 +206396,8 @@
             3
           ],
           "weight": 3,
-          "out_of": 158,
-          "rarity": 0.0189873,
+          "out_of": 128,
+          "rarity": 0.0234375,
           "section": "Runes and ammunition"
         },
         {
@@ -206391,8 +206408,8 @@
             4
           ],
           "weight": 1,
-          "out_of": 158,
-          "rarity": 0.0063291,
+          "out_of": 128,
+          "rarity": 0.0078125,
           "section": "Runes and ammunition"
         },
         {
@@ -206403,8 +206420,8 @@
             2
           ],
           "weight": 1,
-          "out_of": 158,
-          "rarity": 0.0063291,
+          "out_of": 128,
+          "rarity": 0.0078125,
           "section": "Runes and ammunition"
         },
         {
@@ -206415,8 +206432,8 @@
             7
           ],
           "weight": 1,
-          "out_of": 158,
-          "rarity": 0.0063291,
+          "out_of": 128,
+          "rarity": 0.0078125,
           "section": "Runes and ammunition"
         },
         {
@@ -206426,9 +206443,9 @@
             10,
             10
           ],
-          "weight": 40,
-          "out_of": 158,
-          "rarity": 0.2531646,
+          "weight": 10,
+          "out_of": 128,
+          "rarity": 0.078125,
           "section": "Coins",
           "notes": [
             "The drop rate decreases to 10/128 on a members world."
@@ -206442,8 +206459,8 @@
             18
           ],
           "weight": 21,
-          "out_of": 158,
-          "rarity": 0.1329114,
+          "out_of": 128,
+          "rarity": 0.1640625,
           "section": "Coins"
         },
         {
@@ -206454,8 +206471,8 @@
             26
           ],
           "weight": 8,
-          "out_of": 158,
-          "rarity": 0.0506329,
+          "out_of": 128,
+          "rarity": 0.0625,
           "section": "Coins"
         },
         {
@@ -206466,8 +206483,8 @@
             35
           ],
           "weight": 6,
-          "out_of": 158,
-          "rarity": 0.0379747,
+          "out_of": 128,
+          "rarity": 0.046875,
           "section": "Coins"
         },
         {
@@ -206478,8 +206495,8 @@
             1
           ],
           "weight": 2,
-          "out_of": 158,
-          "rarity": 0.0126582,
+          "out_of": 128,
+          "rarity": 0.015625,
           "section": "Coins"
         },
         {
@@ -206490,14 +206507,14 @@
             7
           ],
           "weight": 26,
-          "out_of": 158,
-          "rarity": 0.164557,
+          "out_of": 128,
+          "rarity": 0.203125,
           "section": "Other"
         },
         {
           "nothing": true,
           "weight": 3,
-          "out_of": 158
+          "out_of": 128
         },
         {
           "item_id": 590,
@@ -206507,8 +206524,8 @@
             1
           ],
           "weight": 2,
-          "out_of": 158,
-          "rarity": 0.0126582,
+          "out_of": 128,
+          "rarity": 0.015625,
           "section": "Other"
         },
         {
@@ -206519,8 +206536,8 @@
             1
           ],
           "weight": 1,
-          "out_of": 158,
-          "rarity": 0.0063291,
+          "out_of": 128,
+          "rarity": 0.0078125,
           "section": "Other"
         },
         {
@@ -206531,8 +206548,8 @@
             1
           ],
           "weight": 1,
-          "out_of": 158,
-          "rarity": 0.0063291,
+          "out_of": 128,
+          "rarity": 0.0078125,
           "section": "Other"
         },
         {
@@ -210672,7 +210689,7 @@
       "label": "Drops",
       "table_name": "Zombie (Wilderness) Drops",
       "wiki_page": "Zombie (Wilderness)",
-      "main_max_roll": 211,
+      "main_max_roll": 198,
       "entries": [
         {
           "item_id": 526,
@@ -210693,8 +210710,8 @@
             1
           ],
           "weight": 2,
-          "out_of": 211,
-          "rarity": 0.0094787,
+          "out_of": 198,
+          "rarity": 0.010101,
           "section": "Weapons and armour"
         },
         {
@@ -210705,8 +210722,8 @@
             1
           ],
           "weight": 2,
-          "out_of": 211,
-          "rarity": 0.0094787,
+          "out_of": 198,
+          "rarity": 0.010101,
           "section": "Weapons and armour"
         },
         {
@@ -210717,8 +210734,8 @@
             1
           ],
           "weight": 1,
-          "out_of": 211,
-          "rarity": 0.0047393,
+          "out_of": 198,
+          "rarity": 0.0050505,
           "section": "Weapons and armour"
         },
         {
@@ -210729,8 +210746,8 @@
             2
           ],
           "weight": 6,
-          "out_of": 211,
-          "rarity": 0.028436,
+          "out_of": 198,
+          "rarity": 0.030303,
           "section": "Runes"
         },
         {
@@ -210741,8 +210758,8 @@
             4
           ],
           "weight": 5,
-          "out_of": 211,
-          "rarity": 0.0236967,
+          "out_of": 198,
+          "rarity": 0.0252525,
           "section": "Runes"
         },
         {
@@ -210753,8 +210770,8 @@
             3
           ],
           "weight": 3,
-          "out_of": 211,
-          "rarity": 0.014218,
+          "out_of": 198,
+          "rarity": 0.0151515,
           "section": "Runes"
         },
         {
@@ -210765,8 +210782,8 @@
             3
           ],
           "weight": 3,
-          "out_of": 211,
-          "rarity": 0.014218,
+          "out_of": 198,
+          "rarity": 0.0151515,
           "section": "Runes"
         },
         {
@@ -210777,8 +210794,8 @@
             7
           ],
           "weight": 1,
-          "out_of": 211,
-          "rarity": 0.0047393,
+          "out_of": 198,
+          "rarity": 0.0050505,
           "section": "Runes"
         },
         {
@@ -210788,9 +210805,9 @@
             10,
             10
           ],
-          "weight": 19,
-          "out_of": 211,
-          "rarity": 0.0900474,
+          "weight": 6,
+          "out_of": 198,
+          "rarity": 0.030303,
           "section": "Coins",
           "notes": [
             "The drop rate decreases to 6/128 on a members world."
@@ -210804,8 +210821,8 @@
             26
           ],
           "weight": 5,
-          "out_of": 211,
-          "rarity": 0.0236967,
+          "out_of": 198,
+          "rarity": 0.0252525,
           "section": "Coins"
         },
         {
@@ -210816,8 +210833,8 @@
             35
           ],
           "weight": 4,
-          "out_of": 211,
-          "rarity": 0.0189573,
+          "out_of": 198,
+          "rarity": 0.020202,
           "section": "Coins"
         },
         {
@@ -210828,8 +210845,8 @@
             1
           ],
           "weight": 2,
-          "out_of": 211,
-          "rarity": 0.0094787,
+          "out_of": 198,
+          "rarity": 0.010101,
           "section": "Coins"
         },
         {
@@ -210840,8 +210857,8 @@
             18
           ],
           "weight": 1,
-          "out_of": 211,
-          "rarity": 0.0047393,
+          "out_of": 198,
+          "rarity": 0.0050505,
           "section": "Coins"
         },
         {
@@ -210852,8 +210869,8 @@
             3
           ],
           "weight": 42,
-          "out_of": 211,
-          "rarity": 0.1990521,
+          "out_of": 198,
+          "rarity": 0.2121212,
           "section": "Other",
           "notes": [
             "Fishing bait is replaced by dark fishing bait on members worlds."
@@ -210867,8 +210884,8 @@
             3
           ],
           "weight": 42,
-          "out_of": 211,
-          "rarity": 0.1990521,
+          "out_of": 198,
+          "rarity": 0.2121212,
           "section": "Other",
           "notes": [
             "Dark fishing bait is replaced by regular fishing bait on free-to-play worlds."
@@ -210882,8 +210899,8 @@
             4
           ],
           "weight": 25,
-          "out_of": 211,
-          "rarity": 0.1184834,
+          "out_of": 198,
+          "rarity": 0.1262626,
           "section": "Other"
         },
         {
@@ -210894,8 +210911,8 @@
             4
           ],
           "weight": 25,
-          "out_of": 211,
-          "rarity": 0.1184834,
+          "out_of": 198,
+          "rarity": 0.1262626,
           "section": "Other"
         },
         {
@@ -210906,8 +210923,8 @@
             7
           ],
           "weight": 3,
-          "out_of": 211,
-          "rarity": 0.014218,
+          "out_of": 198,
+          "rarity": 0.0151515,
           "section": "Other"
         },
         {
@@ -210918,8 +210935,8 @@
             7
           ],
           "weight": 3,
-          "out_of": 211,
-          "rarity": 0.014218,
+          "out_of": 198,
+          "rarity": 0.0151515,
           "section": "Other"
         },
         {
@@ -210930,8 +210947,8 @@
             1
           ],
           "weight": 2,
-          "out_of": 211,
-          "rarity": 0.0094787,
+          "out_of": 198,
+          "rarity": 0.010101,
           "section": "Other"
         },
         {
@@ -210942,8 +210959,8 @@
             1
           ],
           "weight": 1,
-          "out_of": 211,
-          "rarity": 0.0047393,
+          "out_of": 198,
+          "rarity": 0.0050505,
           "section": "Other"
         },
         {
