@@ -734,3 +734,23 @@ def test_members_world_rate_replaces_the_free_to_play_rate():
         for e in moss_giant["entries"]
         if "weight" in e and not e.get("separate_roll")
     ) == 128
+
+
+def test_cached_manta_ray_keeps_its_other_seed_pools():
+    """The manta ray's Seeds section has {{UncommonSeedDropLines}} beside its own
+    rare and tree-herb seed rows. The uncommon access must not swallow those rows:
+    Yew, Magic and Redwood tree seeds come only from them (RSPSApp/tsps#1982)."""
+    from osrsreboxed import items_api
+
+    (manta,) = _cached_page_tables(
+        "Manta ray (monster)", drops_tables.ItemIdLookup(items_api.load())
+    )
+    names = {row.get("name") for row in manta["entries"]}
+    assert {"Yew seed", "Magic seed", "Redwood tree seed"} <= names
+    assert [
+        (row["weight"], row["out_of"])
+        for row in manta["entries"]
+        if row.get("shared_table") == "uncommonSeed"
+    ] == [(30, 99)]
+    seeds = [row for row in manta["entries"] if row.get("section") == "Seeds" and row.get("item_id")]
+    assert len(seeds) == 28

@@ -617,9 +617,12 @@ def build_table_spec(
     unresolved_pool: List[str] = []
 
     # Seed drops are listed individually and as a shared table access on some
-    # pages; the access wins so the seeds are not counted twice.
+    # pages; the access wins so the seeds are not counted twice. Not for the
+    # uncommon seed table: {{UncommonSeedDropLines}} is that pool's own listing,
+    # so a page's DropsLine seeds beside it are other pools (the manta ray's
+    # rare and tree-herb seed rolls) and are kept.
     has_seed_access = any(
-        access.table_key in ("seed", "rareSeed", "uncommonSeed") for access in table.subtable_accesses
+        access.table_key in ("seed", "rareSeed") for access in table.subtable_accesses
     )
 
     # Keep adjacency and run size from source rows, before unresolved items or
