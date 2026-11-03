@@ -616,3 +616,121 @@ def test_several_word_rarity_rows_in_one_section_are_flagged():
     assert [[entry.name for entry in roll.entries] for roll in stacked] == [
         ["Bones", "Rune full helm"]
     ]
+
+
+def _cached_page_tables(page, items=None):
+    import json
+    from pathlib import Path
+
+    pages = json.loads(
+        (
+            Path(__file__).parents[1] / "data/monsters/monsters-wiki-page-text.json"
+        ).read_text(encoding="utf-8")
+    )
+    return [
+        drops_tables.build_table_json(
+            drops_tables.build_table_spec(page, table, items or ITEMS)
+        )
+        for table in drops_wikitext.parse_all_drop_tables(pages[page])
+    ]
+
+
+def test_cached_lizardmen_roll_the_uncommon_seed_table():
+    """{{UncommonSeedDropLines}} was dropped without a warning, so a lizardman
+    killed six times dropping only bones was likely (RSPSApp/tsps#1952). The
+    Wiki's level 53, level 62 and brute tables roll it at 15/87, 15/78, 15/67."""
+    accesses = {
+        (table["label"], row["weight"], row["out_of"])
+        for page in ("Lizardman", "Lizardman brute")
+        for table in _cached_page_tables(page)
+        for row in table["entries"]
+        if row.get("shared_table") == "uncommonSeed"
+    }
+    assert accesses == {
+        ("Level 53 drops", 15, 87),
+        ("Level 62 drops", 15, 78),
+        ("Drops", 15, 67),
+    }
+
+
+def test_uncommon_seed_table_lines_are_a_shared_access_not_rows():
+    wikitext = """{{Infobox Monster\n|id1 = 1\n}}\n==Drops==\n"""
+    wikitext += "===Seeds===\n{{UncommonSeedDropTableInfo|35/128}}\n"
+    wikitext += "{{UncommonSeedDropLines|35/128|f2p=yes}}\n"
+    table = drops_wikitext.parse_all_drop_tables(wikitext)[0]
+    exported = drops_tables.build_table_json(
+        drops_tables.build_table_spec("Test_monster", table, ITEMS)
+    )
+    assert [
+        (e.get("shared_table"), e.get("weight"), e.get("out_of"))
+        for e in exported["entries"]
+    ] == [("uncommonSeed", 35, 128)]
+
+
+def test_uncommon_seed_table_is_exported_from_the_drop_table_page():
+    from scripts.drops.update import load_shared_table_wikitext
+
+    shared = drops_tables.export_shared_subtables(load_shared_table_wikitext(), ITEMS)
+    seeds = shared["uncommonSeed"]
+    assert seeds["wiki_label"] == "uncommon seed drop table"
+    assert seeds["entries"][0]["rarity_raw"] == "137/1048"
+
+
+def test_members_world_rate_replaces_the_free_to_play_rate():
+    """The dump describes members worlds: "Drop rate is decreased to 8/128 in
+    [[members]] worlds" with altrarity=8/128 rolls 8/128. The moss giant's
+    table, its seed roll restored, now fills exactly 128 slots."""
+    line = drops_wikitext._parse_drop_line(
+        {
+            "name": "Coins",
+            "quantity": "2",
+            "rarity": "11/128",
+            "altrarity": "8/128",
+            "raritynotes": '<ref group="d">Drop rate is decreased to 8/128 in [[members]] worlds.</ref>',
+        },
+        "Main",
+        "Coins",
+        {},
+    )
+    assert line.rarity == "8/128"
+    skeleton = drops_wikitext._parse_drop_line(
+        {
+            "name": "Coins",
+            "quantity": "2",
+            "rarity": "29/128",
+            "altrarity": "24/128",
+            "raritynotes": "<ref group=d>The drop rate decreases to 24/128 on a [[members]] world.</ref>",
+        },
+        "Main",
+        "Coins",
+        {},
+    )
+    assert skeleton.rarity == "24/128"
+    unrelated = drops_wikitext._parse_drop_line(
+        {
+            "name": "Coins",
+            "quantity": "2",
+            "rarity": "11/128",
+            "altrarity": "Never",
+            "raritynotes": "<ref group=d>Not dropped in the Forgotten Cemetery.</ref>",
+        },
+        "Main",
+        "Coins",
+        {},
+    )
+    assert unrelated.rarity == "11/128"
+    from osrsreboxed import items_api
+
+    (moss_giant,) = [
+        t
+        for t in _cached_page_tables(
+            "Moss giant", drops_tables.ItemIdLookup(items_api.load())
+        )
+        if t["label"] == "Drops"
+    ]
+    assert moss_giant["main_max_roll"] == 128
+    assert sum(
+        e["weight"]
+        for e in moss_giant["entries"]
+        if "weight" in e and not e.get("separate_roll")
+    ) == 128

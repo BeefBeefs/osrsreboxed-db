@@ -58,6 +58,7 @@ SUBTABLE_LABELS = {
     "gem": "gem drop table",
     "seed": "general seed drop table",
     "rareSeed": "rare seed drop table",
+    "uncommonSeed": "uncommon seed drop table",
     "rareDrop": "rare drop table",
     "megaRare": "mega-rare drop table",
     "gwdRareDrop": "God Wars Dungeon-variant rare drop table",
@@ -464,6 +465,14 @@ F2P_ONLY_DROP = re.compile(
 )
 F2P_NAME_NOTE = re.compile(r"\(f\)", re.I)
 F2P_REF_NAME = re.compile(r"name\s*=\s*['\"]f2p['\"]", re.I)
+# "Drop rate is decreased to 8/128 in [[members]] worlds." or "The drop rate decreases
+# to 24/128 on a [[members]] world." next to altrarity=8/128: the dump describes members
+# worlds, so that row rolls at the alternate rate.
+MEMBERS_RATE_NOTE = re.compile(
+    r"(?:de|in)creas(?:es|ed) to\s*(\S+?)\s+(?:while\s+)?(?:in|on)\s+(?:an?\s+)?"
+    r"(?:\[\[)?members\b",
+    re.I,
+)
 TRANSFORM_ITEM_NOTE = re.compile(
     r"scroll\s*box|x\s*marks\s*the\s*spot|replaced\s*by", re.I
 )
@@ -1472,6 +1481,13 @@ def _parse_drop_line(
     rarity = params.get("rarity", "").strip() or rarity_notes
     if not rarity.strip():
         return None
+    alternate = params.get("altrarity", "").strip()
+    if alternate and any(
+        match.group(1) == alternate
+        for match in map(MEMBERS_RATE_NOTE.search, attached_notes)
+        if match
+    ):
+        rarity = alternate
 
     relevant_notes = parse_inline_note_fields(name_notes, rarity_notes) + [
         note
@@ -1581,6 +1597,7 @@ SUBTABLE_TEMPLATES = [
         "Seeds",
     ),
     ("rareSeed", ["RareSeedDropTableInfo", "RareSeedDropLines"], "Seeds"),
+    ("uncommonSeed", ["UncommonSeedDropTableInfo", "UncommonSeedDropLines"], "Seeds"),
 ]
 
 PROSE_ACCESS_PATTERNS = [
@@ -1590,6 +1607,7 @@ PROSE_ACCESS_PATTERNS = [
     ("gem", r"chance of rolling the gem drop table"),
     ("seed", r"chance of rolling the general seed drop table"),
     ("rareSeed", r"chance of rolling the rare seed drop table"),
+    ("uncommonSeed", r"chance of rolling the uncommon seed drop table"),
     ("rareDrop", r"chance of rolling the rare drop table"),
     ("megaRare", r"chance of rolling the mega-?rare drop table"),
 ]
